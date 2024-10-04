@@ -1,4 +1,4 @@
-# **Olá, eu sou Leonardo Victor Bezerra de Oliveira.**
+# **Olá, eu sou Leonardo Victor Bezerra de Oliveira!**👋
 
 ## Sobre mim
 
