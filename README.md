@@ -1,7 +1,7 @@
 # **Olá, eu sou Leonardo Victor Bezerra de Oliveira!** 👋
 
 ## Sobre mim
-
+![Foto_git](GitFoto2.1.jpg)
 
 
 
