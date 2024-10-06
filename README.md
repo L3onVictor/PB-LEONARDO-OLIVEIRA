@@ -1,17 +1,7 @@
 # **Olá, eu sou Leonardo Victor Bezerra de Oliveira!** 👋
 
 ## Sobre mim
-![Foto_git](GitFoto2.1.jpg)
-
-
-
-
-
-
-
-
-
-
+![Foto_git](gitFoto.jpg)
 - 🌎**Localização:** Garanhuns, Pernambuco
 - 🏫**Instituição de ensino:** Instituto Federal de Pernambuco - IFPE
 - 🎓**Curso:** Análise e desenvolvimento de sistemas - ADS 
