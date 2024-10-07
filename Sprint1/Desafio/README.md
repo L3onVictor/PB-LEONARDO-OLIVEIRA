@@ -65,9 +65,10 @@ Apos as 4 execuções, deve-se criar um executavel chamado **consolidador_de_pro
 
 ### Código do consolidador
 ![consolidador](../evidencias/consolidador.png)
-Esse código pega todos os arquivos relatorios- (idependente do que vier depois da " - ") e armazena no arquivo ```relatorio_final.txt```
+Esse código pega todos os arquivos relatorios- (idependente do que vier depois do " - ") e armazena no arquivo ```relatorio_final.txt```
 
 Parte do **relatorio_final.txt**
+
 ![relatorio final](../evidencias/cat_relatorioFinal.png)
 
 ## Criações dos arquivos na pasta ecommerce
@@ -75,12 +76,20 @@ Parte do **relatorio_final.txt**
 Aqui está a criação de cada arquivo visualizada com o ```tree``` na pasta ```ecommerce```
 
 1. Primeira execução do crontab
+
 ![crontab1](../evidencias/tree_execucao01.png)
+
 2. Segunda execução do crontab
+
 ![crontab2](../evidencias/tree_execucao02.png)
+
 3. Terceira execução do crontab
+
 ![crontab3](../evidencias/tree_execucao03.png)
+
 4. Quarta execução do crontab
+
 ![crontab4](../evidencias/tree_execucao04.png)
+
 5. Criação do ```relatorio_final.txt``` e conclusão do desafio.
 ![relatorio_final](../evidencias/relatorioFinal.png)
