@@ -85,4 +85,4 @@ Exibindo parte do relatorioFinal.txt
 Não houve exercicios na sprint 1
 
 # Certificados
-Não houve certificados na Sprint 1
+Não houve certificados obrigatorios na Sprint 1

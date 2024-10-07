@@ -1,0 +1,52 @@
+id,produto,quantidade,preço,data
+129,notebook Dell Inspiron 15,5,4600.00,01/05/2024
+130,smartphone Samsung Galaxy S21,8,4200.00,02/05/2024
+131,mouse Logitech MX Master 3,12,380.00,03/05/2024
+132,teclado mecânico HyperX Alloy,10,450.00,04/05/2024
+133,monitor LG 27'' 4K,6,2800.00,05/05/2024
+134,HD Seagate 1TB,15,290.00,06/05/2024
+135,SSD Kingston 500GB,20,340.00,07/05/2024
+136,memória RAM Corsair 16GB DDR4,25,500.00,08/05/2024
+137,placa de vídeo NVIDIA RTX 3070,3,3900.00,09/05/2024
+138,fonte Corsair 750W,7,520.00,10/05/2024
+139,gabinete Cooler Master,5,680.00,11/05/2024
+140,placa-mãe ASUS B450,8,750.00,12/05/2024
+141,processador AMD Ryzen 5 5600X,6,1050.00,13/05/2024
+142,processador Intel Core i7 11700K,4,2300.00,14/05/2024
+143,roteador TP-Link Archer AX50,10,430.00,15/05/2024
+144,impressora HP DeskJet 2776,6,380.00,16/05/2024
+145,fones de ouvido JBL TUNE 500,20,130.00,17/05/2024
+146,tablet Apple iPad 9ª Geração,4,4100.00,18/05/2024
+147,câmera de segurança Xiaomi Mi,8,320.00,19/05/2024
+148,smartwatch Apple Watch SE,5,2400.00,20/05/2024
+149,cadeira gamer DXRacer,3,1300.00,21/05/2024
+150,smartphone Xiaomi Redmi Note 11,7,1700.00,22/05/2024
+151,carregador portátil Anker 10000mAh,15,240.00,23/05/2024
+152,headset Razer Kraken,12,380.00,24/05/2024
+153,smart TV Samsung 50'' 4K,4,3700.00,25/05/2024
+154,drone DJI Mini 2,2,5200.00,26/05/2024
+155,controlador Xbox Series,10,310.00,27/05/2024
+156,hub USB 3.0 TP-Link,20,110.00,28/05/2024
+157,webcam Logitech C920,12,280.00,29/05/2024
+158,impressora 3D Creality Ender 3,3,1900.00,30/05/2024
+159,cabo HDMI 2.1 2m,25,65.00,31/05/2024
+160,carregador rápido USB-C Samsung,20,180.00,01/06/2024
+161,smartphone Motorola Moto G60,5,2000.00,02/06/2024
+162,filtro de linha Clamper,15,95.00,03/06/2024
+163,placa de captura Elgato HD60,4,1250.00,04/06/2024
+164,volante Logitech G29,3,1650.00,05/06/2024
+165,scanner de mesa Canon Lide 300,5,380.00,06/06/2024
+166,microfone Blue Yeti,6,1100.00,07/06/2024
+167,cooler para processador Cooler Master Hyper 212,8,220.00,08/06/2024
+168,extensor de Wi-Fi TP-Link RE305,10,210.00,09/06/2024
+169,caixa de som Bluetooth JBL Flip 5,7,540.00,10/06/2024
+170,HD Externo Western Digital 2TB,10,470.00,11/06/2024
+171,switch D-Link 8 portas,12,170.00,12/06/2024
+172,fita LED RGB para gabinete,20,45.00,13/06/2024
+173,notebook Lenovo ThinkPad E15,3,4800.00,14/06/2024
+174,placa de som externa Behringer UMC22,6,340.00,15/06/2024
+175,adaptador de rede USB TP-Link,15,90.00,16/06/2024
+176,câmera DSLR Canon EOS Rebel T7,2,4100.00,17/06/2024
+177,conjunto de teclado e mouse Microsoft,10,140.00,18/06/2024
+178,cooler para notebook C3Tech,12,80.00,19/06/2024
+179,gamepad Sony DualShock 4,8,330.00,04/10/2024
