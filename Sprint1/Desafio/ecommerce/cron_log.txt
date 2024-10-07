@@ -1,0 +1,4 @@
+  adding: backup/backup-dados-20241003.csv (deflated 55%)
+  adding: backup/backup-dados-20241004.csv (deflated 56%)
+  adding: backup/backup-dados-20241005.csv (deflated 55%)
+  adding: backup/backup-dados-20241006.csv (deflated 50%)

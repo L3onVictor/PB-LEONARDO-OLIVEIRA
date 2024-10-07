@@ -1,0 +1,64 @@
+Data do sistema atual: 2024/10/03 15:27
+Data do primeiro registro de venda: 01/01/2023
+Data do ultimo registro de venda: 31/01/2023
+Quantidades de items diferentes vendidos: 66
+Primeiras 10 linhas do backup:
+id,produto,quantidade,preço,data
+1,camiseta,2,29.90,01/01/2023
+2,calça,5,80.00,02/01/2023
+3,sapato,3,100.00,03/01/2023
+4,meia,20,5.00,04/01/2023
+5,cinto,8,15.00,05/01/2023
+6,camisa,7,40.00,06/01/2023
+7,bermuda,6,50.00,07/01/2023
+8,tênis,4,120.00,08/01/2023
+9,bone,12,10.00,09/01/2023
+
+Data do sistema atual: 2024/10/04 15:27
+Data do primeiro registro de venda: 20/02/2024
+Data do ultimo registro de venda: 28/03/2024
+Quantidades de items diferentes vendidos: 30
+Primeiras 10 linhas do backup:
+id,produto,quantidade,preço,data
+52,guitarra elétrica fender,3,6999.00,20/02/2024
+53,amplificador de guitarra,4,2499.00,21/02/2024
+54,pedaleira preta,1,899.00,22/02/2024
+55,cabo para instrumento ninja,10,99.00,23/02/2024
+56,palheta dunlop,20,5.00,24/02/2024
+57,afinador digital,6,199.00,25/02/2024
+58,capotraste,8,149.00,26/02/2024
+59,suporte para guitarra,7,79.00,27/02/2024
+60,correia para guitarra,9,59.00,28/02/2024
+
+Data do sistema atual: 2024/10/05 15:27
+Data do primeiro registro de venda: 15/03/2024
+Data do ultimo registro de venda: 24/04/2024
+Quantidades de items diferentes vendidos: 40
+Primeiras 10 linhas do backup:
+id,produto,quantidade,preço,data
+89,arroz 5kg,2,18.00,15/03/2024
+90,feijão 1kg,4,7.50,16/03/2024
+91,açúcar 1kg,3,4.50,17/03/2024
+92,óleo de soja 900ml,2,8.00,18/03/2024
+93,farinha de trigo 1kg,2,6.50,19/03/2024
+94,café 500g,3,16.00,20/03/2024
+95,leite 1L,12,4.80,21/03/2024
+96,macarrão 500g,5,5.50,22/03/2024
+97,sal 1kg,1,2.50,23/03/2024
+
+Data do sistema atual: 2024/10/06 15:27
+Data do primeiro registro de venda: 01/05/2024
+Data do ultimo registro de venda: 04/10/2024
+Quantidades de items diferentes vendidos: 51
+Primeiras 10 linhas do backup:
+id,produto,quantidade,preço,data
+129,notebook Dell Inspiron 15,5,4600.00,01/05/2024
+130,smartphone Samsung Galaxy S21,8,4200.00,02/05/2024
+131,mouse Logitech MX Master 3,12,380.00,03/05/2024
+132,teclado mecânico HyperX Alloy,10,450.00,04/05/2024
+133,monitor LG 27'' 4K,6,2800.00,05/05/2024
+134,HD Seagate 1TB,15,290.00,06/05/2024
+135,SSD Kingston 500GB,20,340.00,07/05/2024
+136,memória RAM Corsair 16GB DDR4,25,500.00,08/05/2024
+137,placa de vídeo NVIDIA RTX 3070,3,3900.00,09/05/2024
+

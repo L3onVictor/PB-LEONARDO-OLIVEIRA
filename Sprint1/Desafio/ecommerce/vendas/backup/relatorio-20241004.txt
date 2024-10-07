@@ -1,0 +1,16 @@
+Data do sistema atual: 2024/10/04 15:27
+Data do primeiro registro de venda: 20/02/2024
+Data do ultimo registro de venda: 28/03/2024
+Quantidades de items diferentes vendidos: 30
+Primeiras 10 linhas do backup:
+id,produto,quantidade,preço,data
+52,guitarra elétrica fender,3,6999.00,20/02/2024
+53,amplificador de guitarra,4,2499.00,21/02/2024
+54,pedaleira preta,1,899.00,22/02/2024
+55,cabo para instrumento ninja,10,99.00,23/02/2024
+56,palheta dunlop,20,5.00,24/02/2024
+57,afinador digital,6,199.00,25/02/2024
+58,capotraste,8,149.00,26/02/2024
+59,suporte para guitarra,7,79.00,27/02/2024
+60,correia para guitarra,9,59.00,28/02/2024
+

@@ -1,0 +1,16 @@
+Data do sistema atual: 2024/10/06 15:27
+Data do primeiro registro de venda: 01/05/2024
+Data do ultimo registro de venda: 04/10/2024
+Quantidades de items diferentes vendidos: 51
+Primeiras 10 linhas do backup:
+id,produto,quantidade,preço,data
+129,notebook Dell Inspiron 15,5,4600.00,01/05/2024
+130,smartphone Samsung Galaxy S21,8,4200.00,02/05/2024
+131,mouse Logitech MX Master 3,12,380.00,03/05/2024
+132,teclado mecânico HyperX Alloy,10,450.00,04/05/2024
+133,monitor LG 27'' 4K,6,2800.00,05/05/2024
+134,HD Seagate 1TB,15,290.00,06/05/2024
+135,SSD Kingston 500GB,20,340.00,07/05/2024
+136,memória RAM Corsair 16GB DDR4,25,500.00,08/05/2024
+137,placa de vídeo NVIDIA RTX 3070,3,3900.00,09/05/2024
+

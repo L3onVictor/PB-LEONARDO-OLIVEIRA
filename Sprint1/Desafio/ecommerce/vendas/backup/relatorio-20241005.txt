@@ -1,0 +1,16 @@
+Data do sistema atual: 2024/10/05 15:27
+Data do primeiro registro de venda: 15/03/2024
+Data do ultimo registro de venda: 24/04/2024
+Quantidades de items diferentes vendidos: 40
+Primeiras 10 linhas do backup:
+id,produto,quantidade,preço,data
+89,arroz 5kg,2,18.00,15/03/2024
+90,feijão 1kg,4,7.50,16/03/2024
+91,açúcar 1kg,3,4.50,17/03/2024
+92,óleo de soja 900ml,2,8.00,18/03/2024
+93,farinha de trigo 1kg,2,6.50,19/03/2024
+94,café 500g,3,16.00,20/03/2024
+95,leite 1L,12,4.80,21/03/2024
+96,macarrão 500g,5,5.50,22/03/2024
+97,sal 1kg,1,2.50,23/03/2024
+
