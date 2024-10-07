@@ -72,9 +72,11 @@ Pasta **ecommerce**
 
 
 Código para gerar o relatorio final
+
 ![cod_relatorioFinal](evidencias/consolidador.png)
 
 Exibindo parte do relatorioFinal.txt
+
 ![cat_relatorioFinal](evidencias/cat_relatorioFinal.png)
 
 ### Ultima execução do script junto ao consolidador
