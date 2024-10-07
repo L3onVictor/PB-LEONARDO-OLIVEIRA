@@ -11,6 +11,9 @@ Compactar os arquivos **backup-dados-yyyymmdd.csv** e **dados_de_vendas.csv** em
 Agendar uma execução de quatro dias no crontab às 15:27 h 
 
 Ao final, criar outro Script ***consolidados_de_processamento_de_vendas.sh*** que una todos os relatorios gerados. Apos a execução dos 4 dias do ***processamento_de_vendas.sh***, executar esse Script manualmente para unir os relatorios gerados
+
+### Na pasta ```dados_de_vendas_alteracao.csv``` está todas as alterações realizadas na pasta ```dados_de_vendas.csv``` ao decorrer do desafio
+
 # Etapa 1
 Criando o código do executavel ***processamento_de_vendas.sh***
 ![códigoProcessamento](../evidencias/script_codigo.png)
