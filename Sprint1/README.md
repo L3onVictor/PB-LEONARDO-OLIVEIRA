@@ -1,88 +1,91 @@
 # Sprint 1
-Nessa Sprint foi visto Cursos de Linux, Git e github.
-### resumo
-- **linux**: foi visto alguns de seus principais comandos, além de suas respectivas *flags* e como usa-los corretamente, ex: ```mkdir -p```, que, com a flag ```-p``` verifica a existencia de um repositorio, além de, se necessario, cria estruturas de pastas mais complexas.
+Nesta Sprint, foram abordados cursos de Linux, Git e GitHub.
+### Resumo
+- **Linux**: Foram vistos alguns de seus principais comandos, além de suas respectivas *flags* e como usá-los corretamente. Exemplo: ```mkdir -p```, que, com a flag ```-p```, verifica a existência de um diretório, além de, se necessário, criar estruturas de pastas mais complexas.
 
-- **Git**: Também foi visto seus principais comandos e suas *flags*,clonar repositorios, fazer commits e, também, boas praticas de organização de repositorios pessoais, criação de branchs, etc...
+- **Git**: Também foram abordados seus principais comandos e flags, como clonar repositórios, fazer commits e, além disso, boas práticas de organização de repositórios pessoais, criação de branches, etc.
+
 # Evidências
- ### Essas evidências são relacionadas ao desafio da sprint 1.
- [Clique aqui](https://github.com/L3onVictor/PB-LEONARDO-OLIVEIRA/tree/main/Sprint1/Desafio) Para ver a pasta de desafios com mais detalhes
+### Essas evidências estão relacionadas ao desafio da Sprint 1.
+[Clique aqui](https://github.com/L3onVictor/PB-LEONARDO-OLIVEIRA/tree/main/Sprint1/Desafio) para ver a pasta de desafios com mais detalhes.
 
-Script para gerar relatorios
+Script para gerar relatórios:
 
-![Script relatorio](evidencias/script_codigo.png)
+![Script relatório](evidencias/script_codigo.png)
 
-Agendamento da execução do script (Crontab)
+Agendamento da execução do script (Crontab):
 
 ![Crontab](evidencias/crontab.png)
 
-Pasta **ecommerce**
+Pasta **ecommerce**:
 
 ![Tree da ecommerce](evidencias/tree_ecommerce01.png)
 
-### Criação dos relatorios e backups a cada execução
-1. Primeira execução no contrab
+### Criação dos relatórios e backups a cada execução
+1. Primeira execução no Crontab:
 
 ![Execução1](evidencias/tree_execucao01.png)
 
-2. Segunda execução do contrab
+2. Segunda execução no Crontab:
 
 ![Execução2](evidencias/tree_execucao02.png)
 
-3. Terceira execução no contrab
+3. Terceira execução no Crontab:
 
 ![Execução3](evidencias/tree_execucao03.png)
 
-4. Quarta e ultima execução no contrab
+4. Quarta e última execução no Crontab:
 
 ![Execução4](evidencias/tree_execucao04.png)
-### Geração dos relatorios
 
-1. Primeiro Relatorio
+### Geração dos relatórios
+1. Primeiro relatório:
 
-![Primeiro relarotio](evidencias/relatorio01.png)
+![Primeiro relatório](evidencias/relatorio01.png)
 
-2. Segundo relatorio
+2. Segundo relatório:
 
-![Segundo relatorio](evidencias/relatorio02.png)
+![Segundo relatório](evidencias/relatorio02.png)
 
-3. Terceiro relatorio
+3. Terceiro relatório:
 
-![Terceiro relatorio](evidencias/relatorio03.png)
+![Terceiro relatório](evidencias/relatorio03.png)
 
-4. Quarto e ultimo relatorio gerado
+4. Quarto e último relatório gerado:
 
-![Quarto relatorio](evidencias/relatorio04.png)
+![Quarto relatório](evidencias/relatorio04.png)
+
 ### Mudanças na pasta **dados_de_vendas.csv**
-1. Pasta dados_de_vendas.csv sem mudanças
+1. Pasta **dados_de_vendas.csv** sem mudanças:
 
 ![dados_de_vendas](evidencias/dados_vendas01.png)
 
-2. Primeira alteração do arquivo
+2. Primeira alteração do arquivo:
 
 ![dados_de_vendas1](evidencias/dados_vendas02.png)
 
-3. Segunda alteração
+3. Segunda alteração:
 
 ![dados_de_vendas2](evidencias/dados_vendas03.png)
 
-4. Terceira e ultima alteração
+4. Terceira e última alteração:
 
 ![dados_de_vendas3](evidencias/dados_vendas04.png)
 
-
-Código para gerar o relatorio final
+Código para gerar o relatório final:
 
 ![cod_relatorioFinal](evidencias/consolidador.png)
 
-Exibindo parte do relatorioFinal.txt
+Exibindo parte do **relatorioFinal.txt**:
 
 ![cat_relatorioFinal](evidencias/cat_relatorioFinal.png)
 
-### Ultima execução do script junto ao consolidador
+### Última execução do script junto ao consolidador:
+
 ![Script_Final](evidencias/relatorioFinal.png)
+
 # Exercícios
-Não houve exercicios na sprint 1
+Não houve exercícios na Sprint 1.
 
 # Certificados
-Não houve certificados obrigatorios na Sprint 1
+Não houve certificados obrigatórios na Sprint 1.
