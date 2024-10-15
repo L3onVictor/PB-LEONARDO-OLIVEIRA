@@ -13,4 +13,4 @@
 ## Sprints
 1. [Sprint 1](https://github.com/L3onVictor/PB-LEONARDO-OLIVEIRA/tree/main/Sprint1)
 
-2. [Sprint 2]()
+2. [Sprint 2](https://github.com/L3onVictor/PB-LEONARDO-OLIVEIRA/tree/main/Sprint2)
