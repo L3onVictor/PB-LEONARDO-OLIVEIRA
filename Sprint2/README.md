@@ -258,4 +258,5 @@ order by estado, nmpro
 [Aquivo do exercicio 16](exercicios/E16.sql)
 
 # Certificados
-![AWSpartner: Sales and accreditation](certificados/AWS-Sales-Accreditation.pdf)
+![AWSpartner: Sales and accreditation](certificados/AWS-Sales-Accreditation_page-0001.jpg)
+![AWS emblema](certificados/aws-partner-sales-accreditation.png)
