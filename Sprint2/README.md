@@ -10,6 +10,70 @@ Nessa Sprint foi visto a linguagem **SQL** e consecitos de **modelagem de dados*
 ### Essas evidências estão relacionadas ao desafio da Sprint 2.
 [Clique aqui](Desafio) para ver a pasta de desafios com mais detalhes.
 
+Diagrama Modelo dimensional:
+
+![DiagramaDim](evidencias/diagramaDim.sqlite.png)
+
+Views do modelo dimensional:
+
+![viewDIm](evidencias/viewsDim.png)
+
+Diagrama Modelo relacional:
+
+![DiagramaMR](evidencias/diagramaNormalizado.png)
+
+Criação da tabela cliente:
+
+![TabelaCliente](evidencias/TabelaCliente.png)
+
+Criação das tabelas Combustivel e carros:
+
+![tabelaCombustivel_carro](evidencias/MR_combustivel_carro.png)
+
+Criação das tabelas vendendores e locacao:
+
+![TabelasVendedores_locacao](evidencias/MR_vendedor_locacao.png)
+
+Inserindo dados nas tabelas do modelo relacional:
+
+![InsertMR](evidencias/InsertsTabela.png)
+
+Criando a dimensão cliente, combustivel e carro:
+
+![DimCliente](evidencias/Dim_cliente_comb_carro.png)
+
+Criando a dimensão vendedores e a tabela fato_locacao:
+
+![Dimvendedores_fato](evidencias/Dim_vendedor_locacao.png)
+
+Inserindo dados na dimensões:
+
+![InsertDim](evidencias/InsertsDim.png)
+
+View do detalhes de carros:
+
+![DetalheCarros](evidencias/vw_detalheCarro.png)
+
+View do carro mais novo:
+
+![DataLocacoes](evidencias/vwCarroNovo.png)
+
+View das datas de todas as Locações:
+
+![viewDataLocacoes](evidencias/vwDataLocacao.png)
+
+View de todas as locações realizadas:
+
+![ViewLocacoes](evidencias/viewLocacaoCompleta.png)
+
+Diagrama Relacional completo:
+
+![MR_completo](evidencias/diagramaRelacionalCompleto.png)
+
+Modelo dimensional completo:
+
+![Dim-completo](evidencias/diagramaDimCompleto.sqlite.png)
+
 # Exercicios
 - Do 1 ao 7 são relacionados ao exercicios do arquivo **biblioteca.sqlite**
 1. Exercicio:
