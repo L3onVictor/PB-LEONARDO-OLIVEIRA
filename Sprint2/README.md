@@ -7,7 +7,8 @@ Nessa Sprint foi visto a linguagem **SQL** e consecitos de **modelagem de dados*
 - **Modelagem de dados:** Também foi mostrado conceitos basicos, tipos de modelagens (relacional e dimensional, além de suas caracteristicas e usabilidades), **ETL** e **ELT** (Extractn transform and load e Extract Load and Transport, respectivamentes), que são conseitos de exportação de tabelas, dentre outros topicos abordadeos.
 
 # Evidências
-
+### Essas evidências estão relacionadas ao desafio da Sprint 2.
+[Clique aqui](Desafio) para ver a pasta de desafios com mais detalhes.
 
 # Exercicios
 - Do 1 ao 7 são relacionados ao exercicios do arquivo **biblioteca.sqlite**
@@ -256,6 +257,49 @@ group by estado, nmpro
 order by estado, nmpro 
 ```
 [Aquivo do exercicio 16](exercicios/E16.sql)
+
+### Exercicio II
+- 01: Foi pedido uma query que obtenha os 10 livros mais caros e, também, que exportassemos o arquivo para **.csv**
+
+Query: 
+```sql
+SELECT cod AS CodLivro, 
+titulo, 
+autor.codautor , 
+autor.nome AS NomeAutor, 
+Valor,
+editora.codeditora , 
+editora.nome AS NomeEditora
+FROM livro
+LEFT JOIN autor  ON autor.codautor = LIVRO.autor
+LEFT JOIN editora ON editora.codeditora = LIVRO.editora 
+GROUP BY livro.cod, livro.titulo 
+ORDER BY LIVRO.valor DESC 
+LIMIT 10
+```
+
+[Arquivo da query01](exercicios/queryTabela1.sql)
+
+[Arquivo .csv Gerado](exercicios/ExportacaoDados01.csv)
+
+- 02: Na segunda parte do exercicio foi pedido, também, uma query que gerasse as 5 editoras que mais venderam livros.
+
+query:
+```sql
+select codeditora,
+nome as NomeEditora,
+count(livro.cod) as QuantidadeLivros
+from editora 
+left join livro on editora.codeditora = livro.editora
+GROUP BY codeditora, nome 
+HAVING count(livro.cod) > 0
+order by QuantidadeLivros DESC 
+limit 5
+```
+
+[Arquivo da query02](exercicios/queryTabela2.sql)
+
+[Arquivo .cvs gerado](exercicios/ExportacaoDados2.csv)
 
 # Certificados
 ![AWSpartner: Sales and accreditation](certificados/AWS-Sales-Accreditation_page-0001.jpg)
