@@ -116,6 +116,7 @@ FROM fato_locacao;
 ```
 
 ![Data locações](../evidencias/vwDataLocacao.png)
+    
     - Aqui as datas estão formadatas com o uso do substring, já explicado anteriormente.
 
 - View para mostrar detalhes de todos os carros cadastrados
