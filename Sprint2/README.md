@@ -256,3 +256,6 @@ group by estado, nmpro
 order by estado, nmpro 
 ```
 [Aquivo do exercicio 16](exercicios/E16.sql)
+
+# Certificados
+![AWSpartner: Sales and accreditation](certificados/AWS-Sales-Accreditation.pdf)

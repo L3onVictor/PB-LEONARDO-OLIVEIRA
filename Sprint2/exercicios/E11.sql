@@ -1,5 +1,5 @@
-select cdcli, nmcli, SUM(qtd*vrunt) as gasto
+select nmcli, cdcli, SUM(vrunt*qtd) as gasto
 from tbvendas
 where status = 'Concluído'
-group by nmcli 
-order by gasto desc 
+group by cdcli 
+order by gasto desc limit 1
