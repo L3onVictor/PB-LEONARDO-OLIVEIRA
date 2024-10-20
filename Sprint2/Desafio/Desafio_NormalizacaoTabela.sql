@@ -55,3 +55,34 @@ FOREIGN KEY (idCliente) REFERENCES clientes(idCliente),
 FOREIGN KEY (idVendedor) REFERENCES vendedores(idVendedor)
 FOREIGN KEY (idCarro) REFERENCES carros(idCarro)
 );
+
+--inserções da tabela tb_locacao para a tabela clientes
+INSERT INTO clientes (idCliente, nomeCliente, cidadeCliente, estadoCliente, paisCliente)
+SELECT idCliente, nomeCliente, cidadeCliente, estadoCliente, paisCliente
+FROM tb_locacao
+GROUP BY idCliente;
+
+INSERT INTO combustivel (idCombustivel,tipoCombustivel)
+SELECT idCombustivel, tipoCombustivel
+FROM tb_locacao 
+GROUP BY idCombustivel;
+
+INSERT INTO carros (idCarro,kmCarro,classiCarro,marcaCarro,modeloCarro,anoCarro,idCombustivel)
+SELECT idCarro,kmCarro,classiCarro,marcaCarro,modeloCarro,anoCarro,idCombustivel
+FROM tb_locacao
+GROUP BY idCarro; 
+
+INSERT INTO vendedores (idVendedor,nomeVendedor,sexoVendedor,estadoVendedor)
+SELECT idVendedor,nomeVendedor,sexoVendedor,estadoVendedor 
+FROM tb_locacao 
+GROUP BY idVendedor;
+
+INSERT INTO locacao (idLocacao, idCliente, dataLocacao, horaLocacao, idCarro,qtdDiaria,vlrDiaria, dataEntrega, horaEntrega, idVendedor)
+SELECT idLocacao, idCliente, date(SUBSTRING(CAST(dataLocacao AS text ), 1, 4) || '-' || 
+SUBSTRING(CAST(dataLocacao AS text),5,2) || '-' ||
+SUBSTRING(CAST(dataLocacao AS text),7,2)) AS dataLocacao, horaLocacao, idCarro, qtdDiaria, vlrDiaria, 
+DATE(SUBSTRING(dataEntrega, 1,4) || '-'|| 
+SUBSTRING(dataEntrega,5,2) || '-' ||
+SUBSTRING(dataEntrega, 7,2)) AS dataEntrega, horaEntrega, idVendedor
+FROM tb_locacao 
+GROUP BY idLocacao;

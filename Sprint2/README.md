@@ -346,7 +346,7 @@ LIMIT 10
 
 [Arquivo .csv Gerado](exercicios/ExportacaoDados01.csv)
 
-- 02: Na segunda parte do exercicio foi pedido, também, uma query que gerasse as 5 editoras que mais venderam livros.
+- 02: Na segunda parte do exercicio foi pedido, também, uma query que gerasse as 5 editoras que mais venderam livros e que exportassemos para um arquivo **.csv**.
 
 query:
 ```sql
