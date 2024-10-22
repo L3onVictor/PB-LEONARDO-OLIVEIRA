@@ -5,14 +5,14 @@ Que são, respectivamente:
 2. 2FN: Separação de dependências parciais.
 3. 3FN: Eliminar dependências transitivas.
 
-Após a normalização, será feito um modelo logico relacional e a criação das tabelas, depois de sua realização, será elaborado dimensões, utilizando essas tabelas anteriormente criadas, e um modelo dimensional, como explicado a cima.
+Após a normalização, será feito um modelo lógico relacional e a criação das tabelas, depois de sua realização, será elaborado dimensões, utilizando essas tabelas anteriormente criadas, e um modelo dimensional, como explicado a cima.
 # Etapa 1
 Criando as tabelas do modelo relacional: 
 
 ![Criando clientes](../evidencias/TabelaCliente.png)
 - a parte dos ```drop table if exists``` é apenas para manter um script e não dar erro se o codigo for executado por uma segunda vez
 
-Criando a tabela combustivel e carros:
+Criando a tabela combustível e carros:
 
 ![Criando cosbustivel e carro](../evidencias/MR_combustivel_carro.png)
 - na tabela **carros** há uma chave estrangeira 
@@ -62,6 +62,8 @@ Diagrama modelo relacional:
 - Aqui está o diagrama relacional com todas as normalizações e ligações realizadas.
 
 # Etapa 2
+Realizei a criação do modelo domensional usando tabelas e não views
+
 Criação das dimensões clientes, combustivel e carros
 
 ![dimensões clientes, comb, carro](../evidencias/Dim_cliente_comb_carro.png)
@@ -72,6 +74,7 @@ Criação da dimensão vendedor e da tabela fato_locacao
 
 ![dimVendendor_e_fato](../evidencias/Dim_vendedor_locacao.png)
 - Aqui a fato também está referenciando as demais tabelas.
+- Resolvi criar uma view para as datas, porém não removi-las da dimensão fato
 
 Criação do Modelo dimensional
 

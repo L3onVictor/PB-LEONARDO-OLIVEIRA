@@ -95,6 +95,7 @@ SUBSTRING(dataEntrega, 7,2)) AS dataEntrega, horaEntrega, idVendedor
 FROM tb_locacao 
 GROUP BY idLocacao;
 
+
 --View para ver a locacao realizada
 CREATE VIEW vw_locacaoCompleta AS SELECT 
     cliente.idCliente,
@@ -121,7 +122,7 @@ dataLocacao,
 horaLocacao,
 dataEntrega,
 horaEntrega
-FROM fato_locacao;
+FROM fato_locacao; 
 
 -- view para ver o carro mais 'novo'
 CREATE VIEW vw_carroMaisRecente AS SELECT
@@ -148,3 +149,5 @@ modeloCarro,
 anoCarro
 FROM dim_carros AS carro LEFT JOIN dim_combustivel AS combustivel
 ON carro.idCombustivel = combustivel.idCombustivel;
+
+SELECT * FROM vw_detalheCarro vdc 

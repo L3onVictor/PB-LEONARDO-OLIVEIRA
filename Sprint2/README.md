@@ -1,10 +1,10 @@
 # Sprint 2
-Nessa Sprint foi visto a linguagem **SQL** e consecitos de **modelagem de dados**
+Nessa Sprint foi vista a linguagem **SQL** e conceitos de **modelagem de dados**.
 
 ### Resumo
-- **SQL:** Foram vistos varios conceitos de ***SGBD*** (Sistema de Gerenciamento de Banco de Dados), comandos basicos, funções agregadas, manipulações de tabelas, criações, inserções e uniões das mesmas etc...
+- **SQL:** Foram vistos vários conceitos de ***SGBD*** (Sistema de Gerenciamento de Banco de Dados), comandos básicos, funções agregadas, manipulações de tabelas, criações, inserções e uniões das mesmas etc.
 
-- **Modelagem de dados:** Também foi mostrado conceitos basicos, tipos de modelagens (relacional e dimensional, além de suas caracteristicas e usabilidades), **ETL** e **ELT** (Extractn transform and load e Extract Load and Transport, respectivamentes), que são conseitos de exportação de tabelas, dentre outros topicos abordadeos.
+- **Modelagem de dados:** Também foram apresentados conceitos básicos, tipos de modelagens (relacional e dimensional, além de suas características e usabilidades), **ETL** e **ELT** (Extract, Transform and Load e Extract, Load and Transform, respectivamente), que são conceitos de exportação de dados, entre outros tópicos abordados.
 
 # Evidências
 ### Essas evidências estão relacionadas ao desafio da Sprint 2.
