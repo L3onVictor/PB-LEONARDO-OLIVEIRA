@@ -11,6 +11,6 @@
 - 🎸 **Hobbies:** Tocar violão, ler e praticar calistenia 🏋️
 
 ## Sprints
-1. [Sprint 1](https://github.com/L3onVictor/PB-LEONARDO-OLIVEIRA/tree/main/Sprint1)
+1. [Sprint 1](Sprint1/)
 
-2. [Sprint 2](https://github.com/L3onVictor/PB-LEONARDO-OLIVEIRA/tree/main/Sprint2)
+2. [Sprint 2](Sprint2/)
