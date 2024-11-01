@@ -1,0 +1,3 @@
+Ator/Atriz com a maior média de bilheteria bruta por filme:
+Nome: Anthony Daniels.
+Média por filme: 451.8.
