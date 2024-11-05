@@ -7,6 +7,30 @@ Nessa Sprint foi abordado o curso de python, e conceitos de ETL (Extract-transfo
 ### Essas evidências estão relacionadas ao ***Desafio***.
 [clique aqui](desafio) para ver a pasta **Desafios** com mais detalhes.
 
+Grafico de barras dos top 5 apps por número de instalação
+
+![Grafico de barras](evidencias/graficoBarras.png)
+
+Grafico de pizza com a porcentagem de todas as categorias existentes no dataset
+
+![Grafico de pizza](evidencias/graficoPizza.png)
+
+Tabela dos top 10 apps por número de reviews
+
+![Número de reviews apps](evidencias/appNumeroReviews.png)
+
+Grafico de linhas com os top 10 apps mais baixados da categoria 'EVENTS'
+
+![Grafico de linha](evidencias/apps-events-downloads.png)
+
+Tabela das categorias de apps que estão acima da media de avaliações
+
+![Tabela avaliação](evidencias/retingCategory.png)
+
+Grafico de todas as avaliações por categoria com a media inclusa
+
+![Grafico avaliação por categoria](evidencias/grafic-rating.png)
+
 # Exercícios
 ### Primeira parte do Exercício I
 1.
