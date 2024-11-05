@@ -173,6 +173,7 @@ display(top_10_nomes)
 ```
 
 Saída gerada:
+
 ![Tabela top 10 apps review](../evidencias/appNumeroReviews.png)
 
 # Etapa 3
