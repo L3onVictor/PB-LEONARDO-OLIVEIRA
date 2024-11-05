@@ -36,7 +36,7 @@ em sequencia apaga os dados duplicados com base no nome dos apps com o comando *
 # Etapa 3
 Aqui foi onde os graficos foram criados
 
-Grafico com o top 5 apps por número de instalações
+## Grafico com o top 5 apps por número de instalações
 ```py
 # Importação das bibliotecas Pandas e Matplotlib
 import pandas as pd 
@@ -67,7 +67,7 @@ Grafico de barras gerado:
 ![grafico de barras](../evidencias/graficoBarras.png)
 
 
-Grafico de pizza (pie chart) de todas as categorias de apps existentes no dataset de acordo com sua frequência
+## Grafico de pizza (pie chart) de todas as categorias de apps existentes no dataset de acordo com sua frequência
 
 ```python
 import pandas as pd
@@ -98,7 +98,7 @@ Grafico de pizza gerado:
 
 ![Grafico de pizza](../evidencias/graficoPizza.png)
 
-App mais caro do dataset
+## App mais caro do dataset
 ```py
 import pandas as pd
 
@@ -126,7 +126,7 @@ print(f"O app mais caro é: {mais_caro['App'].values[0]} que custa {precos}")
 Saída do código:
 **O app mais caro é: I'm Rich - Trump Edition, que custa R$:400.0.**
 
-Todos os apps classificados como **Mature 17+**
+## Todos os apps classificados como **Mature 17+**
 ```py
 import pandas as pd
 
@@ -142,7 +142,7 @@ print(f'Existem {app_maior_17} Apps para maiores de 17 anos')
 
 Saída do código: **Existem 393 Apps para maiores de 17 anos**
 
-Top 10 apps por número de reviews
+## Top 10 apps por número de reviews
 ```py
 import pandas as pd
 
@@ -178,7 +178,7 @@ Saída gerada:
 # Etapa 3
 Aqui tivemos que criar mais 2 calculos (Um de valor e outro de Lista) distintos e, também, elaborar mais 2 graficos com esses calculos anteriormente citados.
 
-Calculo de valor, para mostrar a media de downloads dos apps da categória **EVENTS**
+## Calculo de valor, para mostrar a media de downloads dos apps da categória **EVENTS**
 ```py
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -219,7 +219,7 @@ Saída e grafico desse Script:
 ![Grafico de linha](../evidencias/apps-events-downloads.png)
 
 
-Calculo de Lista, que mostra todas as categorias que ficaram abaixo da media de avaliações 'Rating'
+## Calculo de Lista, que mostra todas as categorias que ficaram abaixo da media de avaliações 'Rating'
 ```py
 import pandas as pd
 import matplotlib.pyplot as plt
