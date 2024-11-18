@@ -38,7 +38,7 @@ As evidências estão relacionadas a pasta desafio.
 
 [Clique aqui](Desafio/) Para vê a pasta desafios com mais atenção.
 
-A maior parte das evidencias foram códigos e estão na pasta do desafio.
+A maior parte das evidências foram códigos e estão na pasta do desafio.
 
 Container carguru
 
@@ -48,7 +48,7 @@ Container mascarar-dados
 
 ![mascarar dados](evidencias/mascarar-dados%20Dcoker.png)
 
-# Exerciicos
+# Exercicios
 
 1. 
 > **E01:**
