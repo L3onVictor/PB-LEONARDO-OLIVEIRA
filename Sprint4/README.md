@@ -76,6 +76,8 @@ print(order_par)
 print(soma)
 ```
 
+[Arquivo Ex1](exercicios/exercicio01.py)
+
 2. 
 >**E02:**
 >Utilizando high order functions, implemente o corpo da função conta_vogais. O parâmetro de entrada será uma string e o resultado deverá ser a contagem de vogais presentes em seu conteúdo.
@@ -101,6 +103,8 @@ def conta_vogais(texto:str)-> int:
     
     return count
 ```
+
+[Arquivo Ex2](exercicios/exercicio02.py)
 
 3. 
 >**E03:**
@@ -143,6 +147,8 @@ lancamentos = [
 
 print(calcula_saldo(lancamentos))
 ```
+
+[Arquivo Ex3](exercicios/exercicio03.py)
 
 4. 
 > **E04:**
@@ -194,6 +200,8 @@ operandos  = [(3,6), (-7,4.9), (8,-8), (10,2), (8,4)]
 
 print(calcular_valor_maximo(operadores, operandos))
 ```
+[Arquivo Ex4](exercicios/exercicio04.py)
+
 5. 
 >**E05:**
 >Um determinado sistema escolar exporta a grade de notas dos estudantes em formato CSV. Cada linha do arquivo corresponde ao nome do estudante, acompanhado de 5 notas de avaliação, no intervalo ```[0-10]```. É o arquivo estudantes.csv de seu exercício.
@@ -247,6 +255,9 @@ with open('estudantes.csv', 'r', encoding='utf-8' ) as estudantes:
 for j in alunos_order:
     print(f'Nome: {j[0]} Notas: {j[1]} Média: {j[2]}')
 ```
+
+[Arquivo Ex5](exercicios/exercicio05.py)
+
 6. 
 >**E06:**
 >Você foi encarregado de desenvolver uma nova feature  para um sistema de gestão de supermercados. O analista responsável descreveu o requisito funcional da seguinte forma:
@@ -318,6 +329,9 @@ content = {
 
 print(maiores_que_media(content))
 ```
+
+[Arquivo Ex6](exercicios/exercicio06.py)
+
 7.
 >**E07:**
 Generators são poderosos recursos da linguagem Python. Neste exercício, você deverá criar o corpo de uma função, cuja assinatura já consta em seu arquivo de início (def pares_ate(n:int):) .
@@ -333,6 +347,9 @@ def pares_ate(n: int):
 
 print(list(pares_ate(7)))
 ```
+
+[Arquivo Ex7](exercicios/exercicio07.py)
+
 # Certificados 
 ![AWS credenciamento tecnico](certificados/AWS%20crendencial%20(tecnico).jpg)
 
