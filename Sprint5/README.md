@@ -225,3 +225,5 @@ Inclusive o botão de download é funcional e baixará os arquivos csv possivel
 ![Cloud Quest](Certificados/aws-cloud-quest-cloud-practitioner.png)
 
 [Link do bandge](https://www.credly.com/badges/847909e0-9ec9-472e-9ec0-a1c3ef367d60/public_url)
+
+![aws certificate](Certificados/Curso-padrão%20de%20preparação%20para%20o%20exame%20AWS%20Certified%20Cloud%20Practitioner_page-0001.jpg)
