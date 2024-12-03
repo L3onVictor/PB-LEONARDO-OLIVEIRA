@@ -73,17 +73,26 @@ emissoes.to_csv("emissoes_passaporte_emergencia.csv", index=False, sep=';', enco
 
 Com isso foram utilizados todas as clausulas e funções e a saida do novo arquivo ficará:
 > ANO;MES;UF;TIPO_PASSAPORTE;QTD;DEMANDA;MEDIA_PASSAPORTES_EMERGÊNCIA
+> 
 > 24;7;SP;passaporte de emergência - icao;317;ALTA DEMANDA;20.95
+>
 > 24;10;SP;passaporte de emergência - icao;265;ALTA DEMANDA;20.95
+>
 > 23;12;SP;passaporte de emergência - icao;242;ALTA DEMANDA;8.2
+>
 > 24;9;SP;passaporte de emergência - icao;236;ALTA DEMANDA;20.95
+>
 > 24;1;SP;passaporte de emergência - icao;227;ALTA DEMANDA;20.95
+>
 > 24;8;SP;passaporte de emergência - icao;222;ALTA DEMANDA;20.95
+>
 > 24;4;SP;passaporte de emergência - icao;212;ALTA DEMANDA;20.95
+>
 > 24;6;SP;passaporte de emergência - icao;198;ALTA DEMANDA;20.95
+>
 > 24;5;SP;passaporte de emergência - icao;194;ALTA DEMANDA;20.95
+>
 > 24;3;SP;passaporte de emergência - icao;176;ALTA DEMANDA;20.95
-
 
 # Etapa 2
 Aqui foi instalado a biblioteca **boto3** e, depois de fazermos as configurações necessarias, poderemos iniciar o código que criará, e subirá os arquivos para o bucket da aws
