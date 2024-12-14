@@ -151,6 +151,7 @@ Erro ao executar o teste no Lambda
 ![erro teste](./Exercicios/Evidencias_exercicios/erro-lambda.png)
 
 Criando um dockerfile para o lambda
+
 ![dockerfile lambda](./Exercicios/Evidencias_exercicios/dockfile-lambda.png)
 
 Antes da imagem ser criada
@@ -361,6 +362,7 @@ Esse erro ocorre pois o lambda não possui a biblioteca pandas intalada, devemos
 Aqui criaremos a camada
 
 Antes devemos criar um dockerfile com o seguinte código
+
 ![dockerfile lambda](./Exercicios/Evidencias_exercicios/dockfile-lambda.png)
 
 rodamos o código:
