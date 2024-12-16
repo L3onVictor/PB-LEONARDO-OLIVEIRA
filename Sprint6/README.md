@@ -197,6 +197,62 @@ Testando código
 
 ## Desafio
 
+Sem imagem criada no docker
+
+![sem Imagem](./Evidencias/semImagem-Docker.png)
+
+Imagem criada
+
+![Imagem criada](./Evidencias/Imagem-criada.png)
+
+Sem container da imagem
+
+![Sem container](./Evidencias/sem-container.png)
+
+Criando o container
+
+![Criando container](./Evidencias/container-criado.png)
+
+Sem volume
+
+![Sem volume](./Evidencias/sem-volume.png)
+
+Volume Criado
+
+![Criando volume](./Evidencias/volume-criado.png)
+
+Executando o container
+
+![exe Container](./Evidencias/rodandoContainer.png)
+
+Sem bucket criado
+
+![No Bucket](./Evidencias/semBucket.png)
+
+Criando o bucket
+
+![Criando Bucket](./Evidencias/bucket-criado.png)
+
+Caminho do bucket
+
+![caminho raw](./Evidencias/local-Raw.png)
+
+![caminho local](./Evidencias/local-Local.png)
+
+![caminho csv](./Evidencias/local-csv.png)
+
+![caminho arquivos](./Evidencias/movie-series.png)
+
+![caminho ano](./Evidencias/local-ano.png)
+
+![caminho mes](./Evidencias/local-mes.png)
+
+![caminho dia](./Evidencias/local-dia.png)
+
+![arquivo original](./Evidencias/arquivo-principal.png)
+
+o caminho final foi:
+**s3://bucket-do-leonardo/Raw/Local/csv/Movies/2024/12/16/movies.csv**
 
 # Exercicios 
 ## Exercicio 01, Site estático
