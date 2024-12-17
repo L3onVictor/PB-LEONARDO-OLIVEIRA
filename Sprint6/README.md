@@ -504,6 +504,10 @@ Ao executarmos o teste novamente temos esse retorno
 
 Isso indica que a função está funcionando corretamente e que o exercicio foi concluido.
 
+### Exercicio 4
+
+Nesse exercicio foi pedido, apenas, para que apaguemos todos os arquivos criados anteriormente.
+
 # Certificados
 
 ![Fudamento de analytics parte 1](./Certificados/AWS%20Fundamentals%20of%20analytics%20Part1_page-0001.jpg)
