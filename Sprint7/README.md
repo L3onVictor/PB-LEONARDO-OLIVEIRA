@@ -36,7 +36,7 @@ Essa Sprint foi aprofundada em Apache Spark. Onde foram vistos seus fundamentos 
 # Evidêncîas
 
 As evidências estão relacionadas ao exercicio e ao desafio da Sprint. São armazenadas, respectivamente, em [evidências dos exercicios](Exercicios/Evidencias_exercicios/) e [evidências do Desafio](Evidencias/)
-Os exercicios serão explicados nesse readme e o Desafio será explicado no [Readme do desafio](Desafio/). As evidências seguem abaixo:
+Os exercicios serão explicados nesse readme e o Desafio será explicado no [Readme do desafio](Desafio/). As evidências seguem a baixo:
 
 ## Exercicio 1 - Contador de palavras
 
@@ -194,7 +194,7 @@ Resultado da tabela
 
 ![Tabela resultado](./Exercicios/Evidencias_exercicios/tabela-athena.png)
 
-## Desafio
+# Desafio
 
 pesquisando o lambda
 
@@ -265,9 +265,11 @@ Configurando permissões no IAM
 ![iam2](./Evidencias/anexando-permissao.png)
 
 Adicionando permissões
+
 ![adicionando permissões](./Evidencias/adicionando-permissao.png)
 
 Script executado com sucesso
+
 ![codigo rodando](./Evidencias/codigo-sucess.png)
 
 Caminho do bucket depois da execução do Script
