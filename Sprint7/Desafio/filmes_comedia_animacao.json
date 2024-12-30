@@ -1,0 +1,1011 @@
+{
+    "comedia": [
+        {
+            "id_csv": "tt0993846",
+            "tituloPincipal": "The Wolf of Wall Street",
+            "anoLancamento": "2013",
+            "tmdb_id": 106646,
+            "titulo_tmdb": "O Lobo de Wall Street",
+            "sinopse": "Durante seis meses, Jordan Belfort (Leonardo DiCaprio) trabalhou duro em uma corretora de Wall Street, seguindo os ensinamentos de seu mentor Mark Hanna (Matthew McConaughey). Quando finalmente consegue ser contratado como corretor da firma, acontece o Black Monday, que faz com que as bolsas de vários países caiam repentinamente. Sem emprego e bastante ambicioso, ele acaba trabalhando para uma empresa de fundo de quintal que lida com papéis de baixo valor, que não estão na bolsa de valores. É lá que Belfort tem a idéia de montar uma empresa focada neste tipo de negócio, cujas vendas são de valores mais baixos mas, em compensação, o retorno para o corretor é bem mais vantajoso. Ao lado de Donnie (Jonah Hill) e outros amigos dos velhos tempos, ele cria a Stratton Oakmont, uma empresa que faz com que todos enriqueçam rapidamente e, também, levem uma vida dedicada ao prazer.",
+            "popularidade": 125.461,
+            "nota_media": 8.033,
+            "votos": 24055,
+            "data_lancamento": "2013-12-25",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 392000000,
+            "orcamento": 100000000,
+            "diretor": "Martin Scorsese",
+            "principais_atores": [
+                "Leonardo DiCaprio",
+                "Jonah Hill",
+                "Margot Robbie"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt0088763",
+            "tituloPincipal": "Back to the Future",
+            "anoLancamento": "1985",
+            "tmdb_id": 105,
+            "titulo_tmdb": "De Volta para o Futuro",
+            "sinopse": "Marty McFly, um típico adolescente americano dos anos 80, acidentalmente é enviado de volta ao ano de 1955 em um carro modificado para ser uma máquino do tempo, inventada por um cientista louco. Durante sua fantástica e maluca viagem no tempo, McFly tem que fazer com que seus futuros pais se encontrem e se apaixonem, para que assim ele possa ir de volta para o futuro.",
+            "popularidade": 79.501,
+            "nota_media": 8.317,
+            "votos": 20029,
+            "data_lancamento": "1985-07-03",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 381109762,
+            "orcamento": 19000000,
+            "diretor": "Robert Zemeckis",
+            "principais_atores": [
+                "Michael J. Fox",
+                "Christopher Lloyd",
+                "Crispin Glover"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt2015381",
+            "tituloPincipal": "Guardians of the Galaxy",
+            "anoLancamento": "2014",
+            "tmdb_id": 447365,
+            "titulo_tmdb": "Guardiões da Galáxia: Vol. 3",
+            "sinopse": "Peter Quill, que ainda está se recuperando da perda de Gamora, tem que reunir a sua equipe para defender o universo e proteger um dos seus. Uma missão que, se não for concluída com sucesso, pode levar ao fim dos Guardiões como os conhecemos.",
+            "popularidade": 118.334,
+            "nota_media": 7.962,
+            "votos": 6955,
+            "data_lancamento": "2023-05-03",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 845600000,
+            "orcamento": 250000000,
+            "diretor": "James Gunn",
+            "principais_atores": [
+                "Chris Pratt",
+                "Zoe Saldaña",
+                "Dave Bautista"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt0120382",
+            "tituloPincipal": "The Truman Show",
+            "anoLancamento": "1998",
+            "tmdb_id": 37165,
+            "titulo_tmdb": "O Show de Truman: O Show da Vida",
+            "sinopse": "Truman Burbank é um pacato vendedor de seguros que leva um vida simples com sua esposa Meryl Burbank. Porém algumas coisas ao seu redor fazem com que ele passe a estranhar sua cidade, seus supostos amigos e até sua mulher. Após conhecer a misteriosa Lauren, ele fica intrigado e acaba descobrindo que toda sua vida foi monitorada por câmeras e transmitida em rede nacional.",
+            "popularidade": 83.486,
+            "nota_media": 8.1,
+            "votos": 18419,
+            "data_lancamento": "1998-06-04",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 264100000,
+            "orcamento": 60000000,
+            "diretor": "Peter Weir",
+            "principais_atores": [
+                "Jim Carrey",
+                "Laura Linney",
+                "Noah Emmerich"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt0266543",
+            "tituloPincipal": "Finding Nemo",
+            "anoLancamento": "2003",
+            "tmdb_id": 12,
+            "titulo_tmdb": "Procurando Nemo",
+            "sinopse": "Depois que seu filho é capturado na Grande Barreira de Corais e levado para Sydney, um peixe-palhaço tímido parte em uma jornada para trazê-lo para casa.",
+            "popularidade": 115.556,
+            "nota_media": 7.819,
+            "votos": 19307,
+            "data_lancamento": "2003-05-30",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 940335536,
+            "orcamento": 94000000,
+            "diretor": "Andrew Stanton",
+            "principais_atores": [
+                "Albert Brooks",
+                "Ellen DeGeneres",
+                "Alexander Gould"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt1049413",
+            "tituloPincipal": "Up",
+            "anoLancamento": "2009",
+            "tmdb_id": 14160,
+            "titulo_tmdb": "Up: Altas Aventuras",
+            "sinopse": "Carl Fredricksen é um vendedor de balões que, aos 78 anos, está prestes a perder a casa em que sempre viveu com sua esposa, a falecida Ellie. Após um incidente, Carl é considerado uma ameaça pública e forçado a ser internado. Para evitar que isto aconteça, ele põe balões em sua casa, fazendo com que ela levante voo. Carl quer viajar para uma floresta na América do Sul, onde ele e Ellie sempre desejaram morar, mas descobre que um problema embarcou junto: Russell, um menino de 8 anos.",
+            "popularidade": 90.191,
+            "nota_media": 7.958,
+            "votos": 20266,
+            "data_lancamento": "2009-05-28",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 735099082,
+            "orcamento": 175000000,
+            "diretor": "Pete Docter",
+            "principais_atores": [
+                "Ed Asner",
+                "Christopher Plummer",
+                "Jordan Nagai"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt1431045",
+            "tituloPincipal": "Deadpool",
+            "anoLancamento": "2016",
+            "tmdb_id": 293660,
+            "titulo_tmdb": "Deadpool",
+            "sinopse": "Baseado no anti-herói não convencional da Marvel Comics, Deadpool conta a história da origem do ex-agente das Forças Especiais que se tornou o mercenário Wade Wilson. Depois de ser submetido a um desonesto experimento que o deixa com poderes de cura acelerada, Wade adota o alter ego de Deadpool. Armado com suas novas habilidades e um senso de humor negro e distorcido, Deadpool persegue o homem que quase destruiu sua vida.",
+            "popularidade": 102.067,
+            "nota_media": 7.624,
+            "votos": 31130,
+            "data_lancamento": "2016-02-09",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 782837347,
+            "orcamento": 58000000,
+            "diretor": "Tim Miller",
+            "principais_atores": [
+                "Ryan Reynolds",
+                "Morena Baccarin",
+                "Ed Skrein"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt0114709",
+            "tituloPincipal": "Toy Story",
+            "anoLancamento": "1995",
+            "tmdb_id": 862,
+            "titulo_tmdb": "Toy Story: Um Mundo de Aventuras",
+            "sinopse": "Buzz Lightyear é o novo e sofisticado astronauta de brinquedo do garoto Andy. Buzz não imaginava que encontraria um rival: Woody, um cowboy de brinquedo que, dominado pelo ciúme, acredita ter perdido um lugar precioso no coração do seu dono. Os dois brinquedos vivem brigando até que vão parar nas garras do vizinho, um verdadeiro destruidor de brinquedos. Agora, mais do que nunca, Buzz e Woody precisam precisam se unir para escapar do perigo. Com a ajuda de seus amigos da caixa de brinquedos, eles vão viver uma incrível aventura.",
+            "popularidade": 125.884,
+            "nota_media": 7.97,
+            "votos": 18450,
+            "data_lancamento": "1995-10-30",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 394436586,
+            "orcamento": 30000000,
+            "diretor": "John Lasseter",
+            "principais_atores": [
+                "Tom Hanks",
+                "Tim Allen",
+                "Don Rickles"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt0198781",
+            "tituloPincipal": "Monsters, Inc.",
+            "anoLancamento": "2001",
+            "tmdb_id": 585,
+            "titulo_tmdb": "Monstros S.A.",
+            "sinopse": "O astro do susto, Sulley, e seu falante assistente, Mike, trabalham na Monstros S.A., a maior fábrica de processamento de gritos da cidade de Monstrópolis. A principal fonte de energia do mundo dos monstros provém da coleta dos gritos das crianças humanas. Os monstros acreditam que as crianças são tóxicas, e entram em pânico quando uma menininha invade seu mundo. Sulley e Mike fazem de tudo para levar a garota de volta para casa, mas enfrentam desafios monstruosos e algumas situações hilárias em suas atrapalhadas aventuras.",
+            "popularidade": 115.527,
+            "nota_media": 7.845,
+            "votos": 18495,
+            "data_lancamento": "2001-11-01",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 579700000,
+            "orcamento": 115000000,
+            "diretor": "Pete Docter",
+            "principais_atores": [
+                "John Goodman",
+                "Billy Crystal",
+                "Mary Gibbs"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt1675434",
+            "tituloPincipal": "The Intouchables",
+            "anoLancamento": "2011",
+            "tmdb_id": 77338,
+            "titulo_tmdb": "Intocáveis",
+            "sinopse": "Quando um ex-presidiário é contratado para cuidar de um aristocrata francês, seu novo trabalho se torna uma aventura imprevisível. Acelerar uma Maserati em Paris, seduzir mulheres, e fazer parapente sobre os Alpes é apenas o começo, pois ele vira o mundo da classe alta de Paris de cabeça para baixo.",
+            "popularidade": 81.285,
+            "nota_media": 8.275,
+            "votos": 17276,
+            "data_lancamento": "2011-11-02",
+            "generos": [],
+            "idioma_original": "fr",
+            "faturamento": 426590315,
+            "orcamento": 13000000,
+            "diretor": "Éric Toledano",
+            "principais_atores": [
+                "François Cluzet",
+                "Omar Sy",
+                "Dominique Henry"
+            ],
+            "pais_producao": [
+                "France"
+            ]
+        },
+        {
+            "id_csv": "tt0208092",
+            "tituloPincipal": "Snatch",
+            "anoLancamento": "2000",
+            "tmdb_id": 107,
+            "titulo_tmdb": "Snatch: Porcos e Diamantes",
+            "sinopse": "Quando o ladrão de jóias Franky Quatro Dedos faz uma rápida parada em Londres, antes de entregar um enorme diamante roubado para o seu chefe em Nova York, ele não tinha a menor idéia da avalanche de sinistros e cômicos acontecimentos que abalariam os mundo do boxe, dos ciganos irlandeses, das lojas de penhores, das fazendas de porcos e... de um cão vira-latas.",
+            "popularidade": 46.242,
+            "nota_media": 7.81,
+            "votos": 9053,
+            "data_lancamento": "2000-09-01",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 83600000,
+            "orcamento": 10000000,
+            "diretor": "Guy Ritchie",
+            "principais_atores": [
+                "Brad Pitt",
+                "Jason Statham",
+                "Alan Ford"
+            ],
+            "pais_producao": [
+                "United Kingdom"
+            ]
+        },
+        {
+            "id_csv": "tt0435761",
+            "tituloPincipal": "Toy Story 3",
+            "anoLancamento": "2010",
+            "tmdb_id": 10193,
+            "titulo_tmdb": "Toy Story 3",
+            "sinopse": "Quando Andy se prepara para ir para a faculdade, Woody, Buzz, Jessie e o restante dos leais brinquedos de Andy pensam o que irá acontecer com eles. Mas quando uma confusão faz com que eles sejam levados à creche Sunnyside, eles conhecem um anfitrião de novos brinquedos e logo descobrem que uma nova aventura selvagem está apenas começando!",
+            "popularidade": 91.324,
+            "nota_media": 7.8,
+            "votos": 14704,
+            "data_lancamento": "2010-06-16",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 1067316101,
+            "orcamento": 200000000,
+            "diretor": "Lee Unkrich",
+            "principais_atores": [
+                "Tom Hanks",
+                "Tim Allen",
+                "Joan Cusack"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt0118715",
+            "tituloPincipal": "The Big Lebowski",
+            "anoLancamento": "1998",
+            "tmdb_id": 115,
+            "titulo_tmdb": "O Grande Lebowski",
+            "sinopse": "Em Los Angeles, 1991, Jeff Lebowski, mais conhecido como \"O Cara\", é um desocupado que gasta o seu tempo ouvindo rock dos anos 1960 e jogando boliche. Mas sua vida vai mudar. Confundido com um milionário da Califórnia, ele se vê envolvido com bandidos da pesada, advogados atrapalhados, detetives, sequestradores e, como se não bastasse, com a polícia. Com sua vida ameaçada, Lebowski procura seu amigo Walter, um veterano da Guerra do Vietnã que irá ajudá-lo com seus métodos pouco ortodoxos.",
+            "popularidade": 45.289,
+            "nota_media": 7.842,
+            "votos": 11204,
+            "data_lancamento": "1998-03-06",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 47010480,
+            "orcamento": 15000000,
+            "diretor": "Joel Coen",
+            "principais_atores": [
+                "Jeff Bridges",
+                "John Goodman",
+                "Julianne Moore"
+            ],
+            "pais_producao": [
+                "United Kingdom",
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt2278388",
+            "tituloPincipal": "The Grand Budapest Hotel",
+            "anoLancamento": "2014",
+            "tmdb_id": 120467,
+            "titulo_tmdb": "O Grande Hotel Budapeste",
+            "sinopse": "No período entre as duas guerras mundiais, o famoso gerente de um hotel europeu conhece um jovem empregado e os dois tornam-se melhores amigos. Entre as aventuras vividas pelos dois, constam o roubo de um famoso quadro do Renascimento, a batalha pela grande fortuna de uma família e as transformações históricas durante a primeira metade do século XX.",
+            "popularidade": 68.787,
+            "nota_media": 8.046,
+            "votos": 14839,
+            "data_lancamento": "2014-02-26",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 174600318,
+            "orcamento": 30000000,
+            "diretor": "Wes Anderson",
+            "principais_atores": [
+                "Ralph Fiennes",
+                "F. Murray Abraham",
+                "Mathieu Amalric"
+            ],
+            "pais_producao": [
+                "Germany",
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt1119646",
+            "tituloPincipal": "The Hangover",
+            "anoLancamento": "2009",
+            "tmdb_id": 18785,
+            "titulo_tmdb": "Se Beber, Não Case!",
+            "sinopse": "Dois dias antes de seu casamento, Doug e três amigos vão de carro até Las Vegas para uma louca e memorável despedida de solteiro. Quando os três padrinhos acordam na manhã seguinte, eles não conseguem se lembrar de nada e notam que Doug desapareceu. Com pouco tempo de sobra, os amigos tentam refazer a noite anterior e encontrar Doug para que possam levá-lo de volta a Los Angeles a tempo de chegar ao altar.",
+            "popularidade": 94.484,
+            "nota_media": 7.323,
+            "votos": 16888,
+            "data_lancamento": "2009-06-02",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 469310836,
+            "orcamento": 35000000,
+            "diretor": "Todd Phillips",
+            "principais_atores": [
+                "Bradley Cooper",
+                "Ed Helms",
+                "Zach Galifianakis"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt0211915",
+            "tituloPincipal": "Amélie",
+            "anoLancamento": "2001",
+            "tmdb_id": 194,
+            "titulo_tmdb": "O Fabuloso Destino de Amélie Poulain",
+            "sinopse": "Após deixar a vida de subúrbio que levava com a família, a inocente Amélie muda-se para o bairro parisiense de Montmartre, onde começa a trabalhar como garçonete. Certo dia encontra uma caixa escondida no banheiro de sua casa e, pensando que pertencesse ao antigo morador, decide procurá-lo ­e é assim que encontra Dominique. Ao ver que ele chora de alegria ao reaver o seu objeto, a moça fica impressionada e adquire uma nova visão do mundo. Então, a partir de pequenos gestos, ela passa a ajudar as pessoas que a rodeiam, vendo nisto um novo sentido para sua existência. Contudo, ainda sente falta de um grande amor.",
+            "popularidade": 68.508,
+            "nota_media": 7.915,
+            "votos": 11531,
+            "data_lancamento": "2001-04-25",
+            "generos": [],
+            "idioma_original": "fr",
+            "faturamento": 173921954,
+            "orcamento": 10000000,
+            "diretor": "Jean-Pierre Jeunet",
+            "principais_atores": [
+                "Audrey Tautou",
+                "Mathieu Kassovitz",
+                "Rufus"
+            ],
+            "pais_producao": [
+                "France",
+                "Germany"
+            ]
+        },
+        {
+            "id_csv": "tt3501632",
+            "tituloPincipal": "Thor: Ragnarok",
+            "anoLancamento": "2017",
+            "tmdb_id": 284053,
+            "titulo_tmdb": "Thor: Ragnarok",
+            "sinopse": "Thor está preso do outro lado do universo. Ele precisa correr contra o tempo para voltar a Asgard e parar Ragnarok, a destruição de seu mundo, que está nas mãos da poderosa e implacável vilã Hela.",
+            "popularidade": 72.32,
+            "nota_media": 7.589,
+            "votos": 20780,
+            "data_lancamento": "2017-10-02",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 855301806,
+            "orcamento": 180000000,
+            "diretor": "Taika Waititi",
+            "principais_atores": [
+                "Chris Hemsworth",
+                "Mark Ruffalo",
+                "Tom Hiddleston"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt0382932",
+            "tituloPincipal": "Ratatouille",
+            "anoLancamento": "2007",
+            "tmdb_id": 2062,
+            "titulo_tmdb": "Ratatouille",
+            "sinopse": "Um rato que sabe cozinhar faz uma aliança incomum com um jovem trabalhador de cozinha em um restaurante famoso.",
+            "popularidade": 118.769,
+            "nota_media": 7.825,
+            "votos": 17109,
+            "data_lancamento": "2007-06-21",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 623726000,
+            "orcamento": 150000000,
+            "diretor": "Brad Bird",
+            "principais_atores": [
+                "Patton Oswalt",
+                "Ian Holm",
+                "Lou Romano"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt7131622",
+            "tituloPincipal": "Once Upon a Time in Hollywood",
+            "anoLancamento": "2019",
+            "tmdb_id": 466272,
+            "titulo_tmdb": "Era Uma Vez em… Hollywood",
+            "sinopse": "Los Angeles, 1969. Rick Dalton é um ator de TV que, juntamente com seu dublê, está decidido a fazer o nome em Hollywood. Para tanto, ele conhece muitas pessoas influentes na indústria cinematográfica, o que os acaba levando aos assassinatos realizados por Charles Manson na época, entre eles o da atriz Sharon Tate, que na época estava grávida do diretor Roman Polanski.",
+            "popularidade": 65.181,
+            "nota_media": 7.438,
+            "votos": 13486,
+            "data_lancamento": "2019-07-24",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 374300000,
+            "orcamento": 95000000,
+            "diretor": "Quentin Tarantino",
+            "principais_atores": [
+                "Leonardo DiCaprio",
+                "Brad Pitt",
+                "Margot Robbie"
+            ],
+            "pais_producao": [
+                "China",
+                "United Kingdom",
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt2096673",
+            "tituloPincipal": "Inside Out",
+            "anoLancamento": "2015",
+            "tmdb_id": 150540,
+            "titulo_tmdb": "Divertida Mente",
+            "sinopse": "Baseadas na Sala de Comando, o centro de controle dentro da mente de Riley de 11 anos, cinco emoções trabalham sem parar, lideradas pela otimista Alegria. Ela se esforça muito para garantir que Riley esteja sempre feliz, e trabalha ao lado do Medo, Raiva, Nojinho e Tristeza.",
+            "popularidade": 157.891,
+            "nota_media": 7.912,
+            "votos": 22063,
+            "data_lancamento": "2015-06-17",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 857611174,
+            "orcamento": 175000000,
+            "diretor": "Pete Docter",
+            "principais_atores": [
+                "Amy Poehler",
+                "Phyllis Smith",
+                "Richard Kind"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        }
+    ],
+    "animacao": [
+        {
+            "id_csv": "tt0910970",
+            "tituloPincipal": "WALL·E",
+            "anoLancamento": "2008",
+            "tmdb_id": 10681,
+            "titulo_tmdb": "WALL-E",
+            "sinopse": "Depois de milhares de solitários anos fazendo o que ele foi construído para fazer, o curioso e adorável WALL-E encontra uma nova razão para viver quando conhece uma robô de busca de alto design chamada EVA.",
+            "popularidade": 80.991,
+            "nota_media": 8.094,
+            "votos": 18829,
+            "data_lancamento": "2008-06-22",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 521311860,
+            "orcamento": 180000000,
+            "diretor": "Andrew Stanton",
+            "principais_atores": [
+                "Ben Burtt",
+                "Elissa Knight",
+                "Jeff Garlin"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt0110357",
+            "tituloPincipal": "The Lion King",
+            "anoLancamento": "1994",
+            "tmdb_id": 762509,
+            "titulo_tmdb": "Mufasa: O Rei Leão",
+            "sinopse": "Explorando a improvável ascensão do amado rei das Terras do Reino, \"Mufasa: O Rei Leão\" convoca Rafiki para contar a lenda de Mufasa à jovem filhote Kiara, filha de Simba e Nala, com Timão e Pumba dando seus toques pessoais. Contada em flashbacks, a história apresenta Mufasa como um filhote órfão, perdido e sozinho até conhecer um simpático leãozinho chamado Taka, o herdeiro de uma linhagem real. O encontro casual dá início a uma jornada transformadora de um grupo extraordinário de desajustados em busca de seus destinos, cujos laços serão testados enquanto trabalham juntos para escapar de um inimigo ameaçador e mortal.",
+            "popularidade": 2773.199,
+            "nota_media": 7.266,
+            "votos": 304,
+            "data_lancamento": "2024-12-18",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 327983537,
+            "orcamento": 200000000,
+            "diretor": "Barry Jenkins",
+            "principais_atores": [
+                "Aaron Pierre",
+                "Kelvin Harrison Jr.",
+                "Tiffany Boone"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt0266543",
+            "tituloPincipal": "Finding Nemo",
+            "anoLancamento": "2003",
+            "tmdb_id": 12,
+            "titulo_tmdb": "Procurando Nemo",
+            "sinopse": "Depois que seu filho é capturado na Grande Barreira de Corais e levado para Sydney, um peixe-palhaço tímido parte em uma jornada para trazê-lo para casa.",
+            "popularidade": 115.556,
+            "nota_media": 7.819,
+            "votos": 19307,
+            "data_lancamento": "2003-05-30",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 940335536,
+            "orcamento": 94000000,
+            "diretor": "Andrew Stanton",
+            "principais_atores": [
+                "Albert Brooks",
+                "Ellen DeGeneres",
+                "Alexander Gould"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt1049413",
+            "tituloPincipal": "Up",
+            "anoLancamento": "2009",
+            "tmdb_id": 14160,
+            "titulo_tmdb": "Up: Altas Aventuras",
+            "sinopse": "Carl Fredricksen é um vendedor de balões que, aos 78 anos, está prestes a perder a casa em que sempre viveu com sua esposa, a falecida Ellie. Após um incidente, Carl é considerado uma ameaça pública e forçado a ser internado. Para evitar que isto aconteça, ele põe balões em sua casa, fazendo com que ela levante voo. Carl quer viajar para uma floresta na América do Sul, onde ele e Ellie sempre desejaram morar, mas descobre que um problema embarcou junto: Russell, um menino de 8 anos.",
+            "popularidade": 90.191,
+            "nota_media": 7.958,
+            "votos": 20266,
+            "data_lancamento": "2009-05-28",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 735099082,
+            "orcamento": 175000000,
+            "diretor": "Pete Docter",
+            "principais_atores": [
+                "Ed Asner",
+                "Christopher Plummer",
+                "Jordan Nagai"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt0114709",
+            "tituloPincipal": "Toy Story",
+            "anoLancamento": "1995",
+            "tmdb_id": 862,
+            "titulo_tmdb": "Toy Story: Um Mundo de Aventuras",
+            "sinopse": "Buzz Lightyear é o novo e sofisticado astronauta de brinquedo do garoto Andy. Buzz não imaginava que encontraria um rival: Woody, um cowboy de brinquedo que, dominado pelo ciúme, acredita ter perdido um lugar precioso no coração do seu dono. Os dois brinquedos vivem brigando até que vão parar nas garras do vizinho, um verdadeiro destruidor de brinquedos. Agora, mais do que nunca, Buzz e Woody precisam precisam se unir para escapar do perigo. Com a ajuda de seus amigos da caixa de brinquedos, eles vão viver uma incrível aventura.",
+            "popularidade": 125.884,
+            "nota_media": 7.97,
+            "votos": 18450,
+            "data_lancamento": "1995-10-30",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 394436586,
+            "orcamento": 30000000,
+            "diretor": "John Lasseter",
+            "principais_atores": [
+                "Tom Hanks",
+                "Tim Allen",
+                "Don Rickles"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt0198781",
+            "tituloPincipal": "Monsters, Inc.",
+            "anoLancamento": "2001",
+            "tmdb_id": 585,
+            "titulo_tmdb": "Monstros S.A.",
+            "sinopse": "O astro do susto, Sulley, e seu falante assistente, Mike, trabalham na Monstros S.A., a maior fábrica de processamento de gritos da cidade de Monstrópolis. A principal fonte de energia do mundo dos monstros provém da coleta dos gritos das crianças humanas. Os monstros acreditam que as crianças são tóxicas, e entram em pânico quando uma menininha invade seu mundo. Sulley e Mike fazem de tudo para levar a garota de volta para casa, mas enfrentam desafios monstruosos e algumas situações hilárias em suas atrapalhadas aventuras.",
+            "popularidade": 115.527,
+            "nota_media": 7.845,
+            "votos": 18495,
+            "data_lancamento": "2001-11-01",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 579700000,
+            "orcamento": 115000000,
+            "diretor": "Pete Docter",
+            "principais_atores": [
+                "John Goodman",
+                "Billy Crystal",
+                "Mary Gibbs"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt0435761",
+            "tituloPincipal": "Toy Story 3",
+            "anoLancamento": "2010",
+            "tmdb_id": 10193,
+            "titulo_tmdb": "Toy Story 3",
+            "sinopse": "Quando Andy se prepara para ir para a faculdade, Woody, Buzz, Jessie e o restante dos leais brinquedos de Andy pensam o que irá acontecer com eles. Mas quando uma confusão faz com que eles sejam levados à creche Sunnyside, eles conhecem um anfitrião de novos brinquedos e logo descobrem que uma nova aventura selvagem está apenas começando!",
+            "popularidade": 91.324,
+            "nota_media": 7.8,
+            "votos": 14704,
+            "data_lancamento": "2010-06-16",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 1067316101,
+            "orcamento": 200000000,
+            "diretor": "Lee Unkrich",
+            "principais_atores": [
+                "Tom Hanks",
+                "Tim Allen",
+                "Joan Cusack"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt0245429",
+            "tituloPincipal": "Spirited Away",
+            "anoLancamento": "2001",
+            "tmdb_id": 129,
+            "titulo_tmdb": "A Viagem de Chihiro",
+            "sinopse": "Chihiro e seus pais estão se mudando para uma cidade diferente. A caminho da nova casa, o pai decide pegar um atalho. Eles se deparam com uma mesa repleta de comida, embora ninguém esteja por perto. Chihiro sente o perigo, mas seus pais começam a comer. Quando anoitece, eles se transformam em porcos. Agora, apenas Chihiro pode salvá-los",
+            "popularidade": 115.788,
+            "nota_media": 8.538,
+            "votos": 16622,
+            "data_lancamento": "2001-07-20",
+            "generos": [],
+            "idioma_original": "ja",
+            "faturamento": 274925095,
+            "orcamento": 19000000,
+            "diretor": "Hayao Miyazaki",
+            "principais_atores": [
+                "柊瑠美",
+                "Miyu Irino",
+                "夏木マリ"
+            ],
+            "pais_producao": [
+                "Japan"
+            ]
+        },
+        {
+            "id_csv": "tt0892769",
+            "tituloPincipal": "How to Train Your Dragon",
+            "anoLancamento": "2010",
+            "tmdb_id": 10191,
+            "titulo_tmdb": "Como Treinar o Seu Dragão",
+            "sinopse": "Soluço é um jovem viking que desafia a tradição, quando fica amigo de um dos mais mortais inimigos — um feroz dragão que ele chama de Banguela.",
+            "popularidade": 133.822,
+            "nota_media": 7.832,
+            "votos": 13076,
+            "data_lancamento": "2010-03-18",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 494879471,
+            "orcamento": 165000000,
+            "diretor": "Chris Sanders",
+            "principais_atores": [
+                "Jay Baruchel",
+                "Gerard Butler",
+                "Craig Ferguson"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt0317705",
+            "tituloPincipal": "The Incredibles",
+            "anoLancamento": "2004",
+            "tmdb_id": 9806,
+            "titulo_tmdb": "Os Incríveis",
+            "sinopse": "Beto Pêra e sua mulher Helena estavam entre os maiores super-heróis do mundo, salvando inúmeras vidas e combatendo o mal diariamente. Quinze anos depois, eles foram forçados a adotar novas identidades e a mudar-se para o subúrbio, onde vivem como cidadãos comuns com seus três filhos, Violeta, Flecha e Zezé. Louco para voltar à ação, Beto tem a sua chance quando uma misteriosa ligação o intima a comparecer a uma ilha distante para receber uma missão ultra-secreta. Ele logo descobre que só uma família inteira de super-heróis será capaz de salvar o mundo e impedir sua total destruição.",
+            "popularidade": 78.18,
+            "nota_media": 7.71,
+            "votos": 17687,
+            "data_lancamento": "2004-10-27",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 631442092,
+            "orcamento": 92000000,
+            "diretor": "Brad Bird",
+            "principais_atores": [
+                "Craig T. Nelson",
+                "Holly Hunter",
+                "Sarah Vowell"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt0382932",
+            "tituloPincipal": "Ratatouille",
+            "anoLancamento": "2007",
+            "tmdb_id": 2062,
+            "titulo_tmdb": "Ratatouille",
+            "sinopse": "Um rato que sabe cozinhar faz uma aliança incomum com um jovem trabalhador de cozinha em um restaurante famoso.",
+            "popularidade": 118.769,
+            "nota_media": 7.825,
+            "votos": 17109,
+            "data_lancamento": "2007-06-21",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 623726000,
+            "orcamento": 150000000,
+            "diretor": "Brad Bird",
+            "principais_atores": [
+                "Patton Oswalt",
+                "Ian Holm",
+                "Lou Romano"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt2096673",
+            "tituloPincipal": "Inside Out",
+            "anoLancamento": "2015",
+            "tmdb_id": 150540,
+            "titulo_tmdb": "Divertida Mente",
+            "sinopse": "Baseadas na Sala de Comando, o centro de controle dentro da mente de Riley de 11 anos, cinco emoções trabalham sem parar, lideradas pela otimista Alegria. Ela se esforça muito para garantir que Riley esteja sempre feliz, e trabalha ao lado do Medo, Raiva, Nojinho e Tristeza.",
+            "popularidade": 157.891,
+            "nota_media": 7.912,
+            "votos": 22063,
+            "data_lancamento": "2015-06-17",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 857611174,
+            "orcamento": 175000000,
+            "diretor": "Pete Docter",
+            "principais_atores": [
+                "Amy Poehler",
+                "Phyllis Smith",
+                "Richard Kind"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt0126029",
+            "tituloPincipal": "Shrek",
+            "anoLancamento": "2001",
+            "tmdb_id": 808,
+            "titulo_tmdb": "Shrek",
+            "sinopse": "Em um pântano distante vive Shrek, um ogro solitário que vê, sem mais nem menos, sua vida ser invadida por uma série de personagens de contos de fada, como três ratos cegos, um grande e malvado lobo e ainda três porcos que não têm um lugar onde morar. Todos eles foram expulsos de seus lares pelo maligno Lorde Farquaad. Determinado a recuperar a tranquilidade de antes, Shrek resolve encontrar Farquaad e com ele faz um acordo: todos os personagens poderão retornar aos seus lares se ele e seu amigo Burro resgatarem uma bela princesa, que é prisioneira de um dragão. Porém, quando Shrek e o Burro enfim conseguem resgatar a princesa logo eles descobrem que seus problemas estão apenas começando.",
+            "popularidade": 147.151,
+            "nota_media": 7.744,
+            "votos": 17198,
+            "data_lancamento": "2001-05-18",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 488628188,
+            "orcamento": 60000000,
+            "diretor": "Andrew Adamson",
+            "principais_atores": [
+                "Mike Myers",
+                "Eddie Murphy",
+                "Cameron Diaz"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt2294629",
+            "tituloPincipal": "Frozen",
+            "anoLancamento": "2013",
+            "tmdb_id": 109445,
+            "titulo_tmdb": "Frozen: Uma Aventura Congelante",
+            "sinopse": "A destemida e otimista Anna sai em uma jornada épica, ao lado de Kristoff e sua leal rena Sven, para encontrar sua irmã Elsa, cujos poderes congelantes aprisionaram o reino de Arendelle em um inverno eterno. Encontrando condições de Everest, trolls místicos e um hilário boneco de neve chamado Olaf, Anna e Kristoff enfrentam obstáculos em uma corrida para salvar o reino.",
+            "popularidade": 148.269,
+            "nota_media": 7.246,
+            "votos": 16563,
+            "data_lancamento": "2013-11-20",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 1274219009,
+            "orcamento": 150000000,
+            "diretor": "Chris Buck",
+            "principais_atores": [
+                "Kristen Bell",
+                "Idina Menzel",
+                "Jonathan Groff"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt0120363",
+            "tituloPincipal": "Toy Story 2",
+            "anoLancamento": "1999",
+            "tmdb_id": 863,
+            "titulo_tmdb": "Toy Story 2",
+            "sinopse": "Quando Andy viaja para um acampamento de verão, Woody é sequestrado por Al, um ambiocioso colecionador, que precisa do brinquedo favorito de Andy para completar sua coleção da Gangue do Rodeio. Junto com Jessie, Bala no Alvo e Mineiro, Woody corre o risco de ter que passar o resto de sua vida em exposição num museu. Agora, Buzz, Sr. Cabeça de Batata, Porquinho, Rex e Slinky terão que salvar seu amigo e trazê-lo de volta à vida de brinquedos.",
+            "popularidade": 102.745,
+            "nota_media": 7.597,
+            "votos": 13886,
+            "data_lancamento": "1999-10-30",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 497375381,
+            "orcamento": 90000000,
+            "diretor": "John Lasseter",
+            "principais_atores": [
+                "Tom Hanks",
+                "Tim Allen",
+                "Joan Cusack"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt1323594",
+            "tituloPincipal": "Despicable Me",
+            "anoLancamento": "2010",
+            "tmdb_id": 519182,
+            "titulo_tmdb": "Meu Malvado Favorito 4",
+            "sinopse": "Nesta sequência, o vilão mais amado do planeta retorna e agora Gru, Lucy, Margo, Edith e Agnes dão as boas-vindas a um novo membro da família: Gru Jr., que pretende atormentar seu pai. Enquanto se adapta com o pequeno, Gru enfrenta um novo inimigo, Maxime Le Mal, forçando sua namorada Valentina e a família a fugir do perigo.",
+            "popularidade": 739.198,
+            "nota_media": 7.086,
+            "votos": 2349,
+            "data_lancamento": "2024-06-20",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 969264325,
+            "orcamento": 100000000,
+            "diretor": "Chris Renaud",
+            "principais_atores": [
+                "Steve Carell",
+                "Kristen Wiig",
+                "Will Ferrell"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt4633694",
+            "tituloPincipal": "Spider-Man: Into the Spider-Verse",
+            "anoLancamento": "2018",
+            "tmdb_id": 324857,
+            "titulo_tmdb": "Homem-Aranha: No Aranhaverso",
+            "sinopse": "Miles Morales é um jovem negro do Brooklyn que se tornou o Homem-Aranha inspirado no legado de Peter Parker, já falecido. Entretanto, ao visitar o túmulo de seu ídolo em uma noite chuvosa, ele é surpreendido com a presença do próprio Peter, vestindo o traje do herói aracnídeo sob um sobretudo. A surpresa fica ainda maior quando Miles descobre que ele veio de uma dimensão paralela, assim como outras variações do Homem-Aranha.",
+            "popularidade": 105.999,
+            "nota_media": 8.399,
+            "votos": 15728,
+            "data_lancamento": "2018-12-06",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 384298736,
+            "orcamento": 90000000,
+            "diretor": "Bob Persichetti",
+            "principais_atores": [
+                "Shameik Moore",
+                "Jake Johnson",
+                "Hailee Steinfeld"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt2380307",
+            "tituloPincipal": "Coco",
+            "anoLancamento": "2017",
+            "tmdb_id": 354912,
+            "titulo_tmdb": "Viva: A Vida é uma Festa",
+            "sinopse": "O aspirante a músico Miguel, deve lidar com sua família que desaprova seu sonho, acaba entrando na Terra dos Mortos para encontrar seu trisavô, um cantor lendário.",
+            "popularidade": 140.001,
+            "nota_media": 8.2,
+            "votos": 19584,
+            "data_lancamento": "2017-10-27",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 807816196,
+            "orcamento": 175000000,
+            "diretor": "Lee Unkrich",
+            "principais_atores": [
+                "Anthony Gonzalez",
+                "Gael García Bernal",
+                "Benjamin Bratt"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt2948356",
+            "tituloPincipal": "Zootopia",
+            "anoLancamento": "2016",
+            "tmdb_id": 269149,
+            "titulo_tmdb": "Zootopia: Essa Cidade é o Bicho",
+            "sinopse": "Judy Hopps é a pequena coelha de uma fazenda isolada, filha de agricultores que plantam cenouras há décadas. Mas ela tem sonhos maiores: pretende se mudar para a cidade grande, Zootopia, onde todas as espécies de animais convivem em harmonia, na intenção de se tornar a primeira coelha policial. Judy enfrenta o preconceito e as manipulações dos outros animais, mas conta com a ajuda inesperada da raposa Nick Wilde, conhecida por sua malícia e suas infrações. A inesperada dupla se dedica à busca de um animal desaparecido, descobrindo uma conspiração que afeta toda a cidade.",
+            "popularidade": 108.894,
+            "nota_media": 7.75,
+            "votos": 16364,
+            "data_lancamento": "2016-02-11",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 1023784195,
+            "orcamento": 150000000,
+            "diretor": "Byron Howard",
+            "principais_atores": [
+                "Jason Bateman",
+                "Ginnifer Goodwin",
+                "Idris Elba"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        },
+        {
+            "id_csv": "tt0268380",
+            "tituloPincipal": "Ice Age",
+            "anoLancamento": "2002",
+            "tmdb_id": 425,
+            "titulo_tmdb": "A Era do Gelo",
+            "sinopse": "Vinte mil anos atrás, na era do gelo, três criaturas completamente diferentes se juntaram por obra do destino. Sid, uma cômica e falante preguiça, Manny, um peludo mamute ranzinza, e Diego, um sinistro tigre dente de sabre relutante em se juntar ao grupo para devolver um bebê humano a seu pai. Antes desta incrível jornada terminar, este diferente trio irá passar por lavas ferventes, escapar de traiçoeiros túneis de gelo e conhecer um pré-histórico esquilo chamado Scrat, uma criatura compulsiva por sua noz. Junte-se ao mais fantástico e engraçado grupo da história, na aventura mais legal de todos os tempos.",
+            "popularidade": 105.159,
+            "nota_media": 7.361,
+            "votos": 13301,
+            "data_lancamento": "2002-03-10",
+            "generos": [],
+            "idioma_original": "en",
+            "faturamento": 383257136,
+            "orcamento": 59000000,
+            "diretor": "Chris Wedge",
+            "principais_atores": [
+                "Ray Romano",
+                "John Leguizamo",
+                "Denis Leary"
+            ],
+            "pais_producao": [
+                "United States of America"
+            ]
+        }
+    ]
+}
