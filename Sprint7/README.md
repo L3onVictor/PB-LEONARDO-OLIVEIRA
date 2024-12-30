@@ -196,7 +196,93 @@ Resultado da tabela
 
 ## Desafio
 
+pesquisando o lambda
 
+![lamdda](./Evidencias/pesquisando-lambda.png)
+
+Tela inicial do lambda
+
+![tela inicial](./Evidencias/dentro-lambda.png)
+
+Criando uma função no lambda
+
+![criando funcao](./Evidencias/criando-funcao.png)
+
+dentro da função
+
+![dentro da função](./Evidencias/dentro-da-funcao.png)
+
+código base da função
+
+![código base](./Evidencias/codigo-base.png)
+
+Mensagem de erro
+
+![erro](./Evidencias/erro-lambda.png)
+
+Dockfile
+
+![dockfile](./Evidencias/arquivo,dockfile.png)
+
+Imagem criada no docker
+
+![imagem docker](./Evidencias/imagem%20criada.png)
+
+Copiando o arquivo para o pc
+
+![copiando arquivo](./Evidencias/copiando-arquivo.png)
+
+Enviando o arquivo para o bucket
+
+![arquivo no bucket](./Evidencias/armazenando-camada-bucket.png)
+
+Criando uma camada no lambda
+
+![lambda](./Evidencias/criando-layer.png)
+
+![camada](./Evidencias/criando-layer2.png)
+
+configurando a camada
+
+![configurando layer](./Evidencias/nomeando-camada.png)
+
+Adicionando a camada ao lambda
+
+![adicionando camada](./Evidencias/Sem-camada.png)
+
+![adicionado camada ao lambda](./Evidencias/escolhendo-camada.png)
+
+Camada adicionada
+
+![camada adicionada](./Evidencias/camada-adicionada.png)
+
+Configurando permissões no IAM
+
+![configurando permissões](./Evidencias/configurando-iam.png)
+
+![iam](./Evidencias/dentro-iam.png)
+
+![iam2](./Evidencias/anexando-permissao.png)
+
+Adicionando permissões
+![adicionando permissões](./Evidencias/adicionando-permissao.png)
+
+Script executado com sucesso
+![codigo rodando](./Evidencias/codigo-sucess.png)
+
+Caminho do bucket depois da execução do Script
+
+![bucket](./Evidencias/raw.png)
+
+![bucket](./Evidencias/tmdb.png)
+
+![bucket](./Evidencias/tipo-arquivo.png)
+
+![bucket](./Evidencias/ano.png)
+
+![bucket](./Evidencias/mes.png)
+
+![bucket](./Evidencias/dia.png)
 # Exercicios 
 ## Exercicio 1 - Contador de palavras com o Apache Spark
 **Observação: esse exercicio foi feito com o google colab**
