@@ -38,7 +38,7 @@ Instalando o Spark no colab
 
 ![instalando o Spark](./Exercicios/Evidencias_exercicios/Instalando-spark01.png)
 
-![instalando o Spark](./Exercicios/Evidencias_exercicios/Instalando-spark02.png)
+![instalando o Spark2](./Exercicios/Evidencias_exercicios/instalando-spark02.png)
 
 Lendo o arquivo **nomes_aleatorios.txt** gerado na atividade anterios
 
@@ -193,7 +193,7 @@ Nesse exercicio iremos aplicar recursos de manipulação de dataframes usando o 
 
 ![instalando o Spark](./Exercicios/Evidencias_exercicios/Instalando-spark01.png)
 
-![instalando o Spark](./Exercicios/Evidencias_exercicios/Instalando-spark02.png)
+![instalando o Spark2](./Exercicios/Evidencias_exercicios/instalando-spark02.png)
 
 ### Etapa 1.1
 Agora com o apache instalado, devemos realizar a leitura do arquivo nomes_aleatorios.txt, criado no exercicio anterior.
