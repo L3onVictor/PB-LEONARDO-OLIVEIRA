@@ -14,7 +14,7 @@ Os exercicios serão explicados nesse readme e o Desafio será explicado no [Rea
 #### Etapa 1
 Criando uma lista com 250 números inteiros e aleatórios
 
-![lista númerica](./Exerciicos/Evidencias_exercicios/cod-lista-aleatoria.png)
+![lista númerica](./Exercicios/Evidencias_exercicios/cod-lista-aleatoria.png)
 
 #### Etapa 2
 
@@ -150,7 +150,7 @@ Nesse exercício devemos gerar dados a serem processados em cada etapa da ativid
 ### Etapa 1
 Devemos criar e inicializar uma lista contendo 250 inteiros obtidos de forma aleatória. Após, aplicar o método reverse sobre o conteúdo da lista e imprimir o resultado.
 
-![lista númerica](./Exerciicos/Evidencias_exercicios/cod-lista-aleatoria.png)
+![lista númerica](./Exercicios/Evidencias_exercicios/cod-lista-aleatoria.png)
 
 ### Etapa 2
 declaramos e Inicializamos uma lista contendo o nome de 20 animais. Ordenamos em ordem
