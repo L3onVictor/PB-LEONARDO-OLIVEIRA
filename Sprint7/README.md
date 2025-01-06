@@ -52,7 +52,7 @@ Resultado do contador de palavras
 
 ![Resultado contador de palavra](./Exercicios/Evidencias_exercicios/Resultado-spark.png)
 
-## Exercicio 2 - TBDB
+## Exercicio 2 - TMDB
 
 Entrando do site do TMDB
 

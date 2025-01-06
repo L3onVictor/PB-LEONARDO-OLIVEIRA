@@ -269,144 +269,120 @@ Substituimos o código para o do nosso Script e executamos
 Código do Script na AWS Lambda
 ```py
 import boto3
-import json
+import csv
 import requests
-import os
+import json
+import pandas as pd
+from io import StringIO
 from datetime import datetime
 
-# Inicializa o cliente S3
-s3_client = boto3.client('s3')
+# Configuração da API TMDB
+API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxx"
+TMDB_BASE_URL = "https://api.themoviedb.org/3"
+SEARCH_URL = f"{TMDB_BASE_URL}/search/movie"
+DETAILS_URL = f"{TMDB_BASE_URL}/movie"
+CREDITS_URL = f"{TMDB_BASE_URL}/movie/{{}}/credits"
 
-def get_filmes(params, base_url):
-    filmes = []
-    page = 1
-    while len(filmes) < 25:
-        params["page"] = page
-        response = requests.get(base_url, params=params)
-        if response.status_code != 200:
-            print(f"Erro ao acessar API. Código: {response.status_code}")
-            break
-        data = response.json()
-        filmes.extend(data.get('results', []))
-        if len(data.get('results', [])) == 0:
-            break
-        page += 1
-    return filmes[:25]
+# Inicialização do cliente S3
+s3 = boto3.client('s3')
 
-def get_detalhes_filme(filme, movie_details_url, api_key):
-    movie_id = filme.get("id")
-    detalhes_resposta = requests.get(f"{movie_details_url}/{movie_id}", params={"api_key": api_key, "language": "pt-BR"})
-    if detalhes_resposta.status_code != 200:
-        print(f"Erro ao obter detalhes do filme ID {movie_id}")
-        return None
-
-    detalhes = detalhes_resposta.json()
-
-    # Obter informações de elenco e equipe
-    creditos_resposta = requests.get(f"{movie_details_url}/{movie_id}/credits", params={"api_key": api_key, "language": "pt-BR"})
-    diretor = "Não informado"
-    atores_principais = []
-    if creditos_resposta.status_code == 200:
-        creditos = creditos_resposta.json()
-        # Buscar diretor
-        for pessoa in creditos.get("crew", []):
-            if pessoa.get("job") == "Director":
-                diretor = pessoa.get("name")
-                break
-        # Obter até 3 atores principais
-        elenco = creditos.get("cast", [])
-        atores_principais = [ator.get("name") for ator in elenco[:3]]
-
-    # Adiciona receita e orçamento ao dicionário
-    receita = detalhes.get("revenue", 0)  
-    orcamento = detalhes.get("budget", 0)  
-
-    filme_completo = {
-        "id": filme.get("id"),
-        "titulo": filme.get("title"),
-        "descricao": filme.get("overview"),
-        "data_lancamento": filme.get("release_date"),
-        "generos": filme.get("genre_ids"),
-        "idioma_original": filme.get("original_language"),
-        "popularidade": filme.get("popularity"),
-        "nota_media": filme.get("vote_average"),
-        "contagem_votos": filme.get("vote_count"),
-        "diretor": diretor,
-        "atores_principais": atores_principais,
-        "orcamento": orcamento,
-        "receita": receita
+# Função para buscar informações de um filme
+def buscar_dados_tmdb(titulo_original):
+    print(f"Buscando dados para: {titulo_original}")
+    params = {
+        "api_key": API_KEY,
+        "language": "pt-BR",
+        "query": titulo_original
     }
-    return filme_completo
+    response = requests.get(SEARCH_URL, params=params)
+    if response.ok:
+        resultados = response.json().get("results", [])
+        return resultados[0] if resultados else None
+    return None
 
+# Função para obter detalhes do filme
+def obter_detalhes_tmdb(movie_id):
+    response = requests.get(f"{DETAILS_URL}/{movie_id}", params={"api_key": API_KEY, "language": "pt-BR"})
+    return response.json() if response.ok else None
+
+# Função para obter créditos do filme
+def obter_creditos_tmdb(movie_id):
+    response = requests.get(CREDITS_URL.format(movie_id), params={"api_key": API_KEY, "language": "pt-BR"})
+    return response.json() if response.ok else None
+
+# Função para ler e filtrar o CSV do S3
+def ler_csv_filtrado(bucket_name, arquivo_csv):
+    print(f"Lendo arquivo {arquivo_csv} do bucket {bucket_name}")
+    response = s3.get_object(Bucket=bucket_name, Key=arquivo_csv)
+    content = response['Body'].read().decode('utf-8')
+    df = pd.read_csv(StringIO(content), delimiter='|', encoding="utf-8")
+    
+    # Filtrando dados
+    df = df[df['genero'].notna() & (df['genero'] != '\\N')].drop_duplicates(subset='id')
+    return df[(df['genero'].str.contains("Comedy|Animation", case=False, na=False)) & (df['notaMedia'] > 7)]
+
+# Função para processar filmes e enriquecer os dados com informações do TMDB
+def processar_filmes(filmes_df):
+    filmes_processados = {"comedia": [], "animacao": []}
+    
+    for genero, chave in [("Comedy", "comedia"), ("Animation", "animacao")]:
+        filmes_top20 = filmes_df[filmes_df['genero'].str.contains(genero, case=False, na=False)].nlargest(20, 'numeroVotos')
+        
+        for _, filme in filmes_top20.iterrows():
+            dados_tmdb = buscar_dados_tmdb(filme["tituloOriginal"])
+            if not dados_tmdb:
+                continue
+            
+            detalhes = obter_detalhes_tmdb(dados_tmdb["id"])
+            creditos = obter_creditos_tmdb(dados_tmdb["id"]) if detalhes else None
+            
+            filme_completo = {
+                "id_csv": filme["id"],
+                "tituloPincipal": filme["tituloPincipal"],
+                "anoLancamento": filme["anoLancamento"],
+                "tmdb_id": detalhes.get("id") if detalhes else None,
+                "titulo_tmdb": detalhes.get("title") if detalhes else None,
+                "sinopse": detalhes.get("overview") if detalhes else None,
+                "popularidade": detalhes.get("popularity") if detalhes else None,
+                "nota_media": detalhes.get("vote_average") if detalhes else None,
+                "votos": detalhes.get("vote_count") if detalhes else None,
+                "data_lancamento": detalhes.get("release_date") if detalhes else None,
+                "generos": [genero["name"] for genero in dados_tmdb.get("genres", [])] if dados_tmdb else [],
+                "diretor": next((membro["name"] for membro in creditos.get("crew", []) if membro["job"] == "Director"), "") if creditos else "",
+                "principais_atores": [ator["name"] for ator in (creditos.get("cast", [])[:3] if creditos else [])],
+                "pais_producao": [pais["name"] for pais in (detalhes.get("production_countries", []) if detalhes else [])],
+                "orcamento": detalhes.get("budget") if detalhes else None,
+                "faturamento": detalhes.get("revenue") if detalhes else None,
+            }
+            filmes_processados[chave].append(filme_completo)
+    
+    return filmes_processados
+
+# Função principal (Lambda Handler)
 def lambda_handler(event, context):
-    bucket_name = "data-lake-do-leonardo" 
-    camada_armazenamento = "Raw"
-    origem_dado = "TMDB"
-    formato_dado = "JSON"
-    especificacao_dado = "top25_filmes"
+    bucket_name = 'data-lake-do-leonardo'
+    arquivo_csv = 'Raw/Local/CSV/Movies/2024/12/17/movies.csv'
+    print("Iniciando processamento...")
+
+    # Processando o CSV
+    df_filtrado = ler_csv_filtrado(bucket_name, arquivo_csv)
+    filmes_enriquecidos = processar_filmes(df_filtrado)
     
-    # data atual
-    data_processamento = datetime.now()
-    ano = data_processamento.strftime("%Y")
-    mes = data_processamento.strftime("%m")
-    dia = data_processamento.strftime("%d")
+    # Gravando os resultados no S3
+    data_atual = datetime.now().strftime('%Y/%m/%d')
+    arquivo_json = f'Raw/TMDB/JSON/{data_atual}/movies_comedia_animacao.json'
+    s3.put_object(
+        Bucket=bucket_name,
+        Key=arquivo_json,
+        Body=json.dumps(filmes_enriquecidos, ensure_ascii=False, indent=4),
+        ContentType='application/json'
+    )
+    print(f"Arquivo JSON gerado com sucesso: {arquivo_json}")
     
-    # Caminho do arquivo no S3
-    arquivo_nome = "top25_filmes_comedia_animacao.json"
-    arquivo_s3 = f"{camada_armazenamento}/{origem_dado}/{formato_dado}/{ano}/{mes}/{dia}/{arquivo_nome}"
-    arquivo_local = "/tmp/top25_filmes.json"
-
-    api_key = "7ac33345c0f52862959af97e38df7616"
-    base_url = "https://api.themoviedb.org/3/discover/movie"
-    movie_details_url = "https://api.themoviedb.org/3/movie"
-
-    params_comedia = {
-        "api_key": api_key,
-        "language": "pt-BR",
-        "with_genres": "35",
-        "sort_by": "popularity.desc",
-        "page": 1
+    return {
+        'statusCode': 200,
+        'body': json.dumps(f'Arquivo JSON salvo em {arquivo_json}')
     }
-
-    params_animacao = {
-        "api_key": api_key,
-        "language": "pt-BR",
-        "with_genres": "16",
-        "sort_by": "popularity.desc",
-        "page": 1
-    }
-
-    try:
-        # Obtém os filmes
-        filmes_comedia = get_filmes(params_comedia, base_url)
-        filmes_animacao = get_filmes(params_animacao, base_url)
-        todos_filmes = filmes_comedia + filmes_animacao
-
-        # Obter detalhes completos dos filmes
-        filmes_completos = []
-        for filme in todos_filmes:
-            detalhes = get_detalhes_filme(filme, movie_details_url, api_key)
-            if detalhes:
-                filmes_completos.append(detalhes)
-
-        # Salva os filmes em um arquivo JSON
-        with open(arquivo_local, "w", encoding="utf-8") as file:
-            json.dump(filmes_completos, file, ensure_ascii=False, indent=4)
-        print(f"Arquivo {arquivo_local} criado com sucesso.")
-
-        # Faz o upload para o bucket S3
-        s3_client.upload_file(arquivo_local, bucket_name, arquivo_s3)
-        print(f"Arquivo {arquivo_s3} enviado para o bucket {bucket_name} com sucesso.")
-        return {
-            "statusCode": 200,
-            "body": json.dumps({"message": "Arquivo enviado com sucesso para o S3"})
-        }
-    except Exception as e:
-        print(f"Erro: {str(e)}")
-        return {
-            "statusCode": 500,
-            "body": json.dumps({"message": "Erro ao processar a solicitação", "error": str(e)})
-        }
 
 ```
 
