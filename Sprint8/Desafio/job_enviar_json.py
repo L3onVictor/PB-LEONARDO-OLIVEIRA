@@ -1,0 +1,34 @@
+import sys
+from pyspark.context import SparkContext
+from pyspark.sql import SparkSession
+from pyspark.sql.functions import col
+from datetime import datetime
+
+# Inicializar o Spark
+sc = SparkContext()
+spark = SparkSession(sc)
+
+# Configuração do Spark
+spark.conf.set("spark.sql.files.ignoreCorruptFiles", "true")
+
+# Definir o caminho do S3
+input_path = "s3://data-lake-do-leonardo/Raw/TMDB/JSON/2025/01/07/movies_comedia_animacao.json"  # Caminho do seu arquivo JSON no S3
+
+# Definir a data de processamento (ano, mês, dia)
+data_processamento = datetime.now()
+ano = data_processamento.strftime('%Y')
+mes = data_processamento.strftime('%m')
+dia = data_processamento.strftime('%d')
+
+# Definir o caminho de saída do arquivo Parquet
+output_path = f"s3://data-lake-do-leonardo/Raw/Trusted/TMDB/PARQUET/comedia_animacao/{ano}/{mes}/{dia}"
+
+# Carregar o arquivo JSON
+df = spark.read.option("multiline", "true").json(input_path)
+
+df.show()
+
+# Transformar os dados para o formato Parquet e gravar no S3
+df.write.parquet(output_path, mode="overwrite")
+
+print(f"Arquivo Parquet salvo em: {output_path}")

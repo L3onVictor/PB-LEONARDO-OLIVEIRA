@@ -4,7 +4,7 @@ import json
 import pandas as pd
 
 # Definindo a chave da API TMDB e as URLs para os endpoints
-api_key = "7ac33345c0f52862959af97e38df7616"
+api_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 search_url = "https://api.themoviedb.org/3/search/movie"
 details_url = "https://api.themoviedb.org/3/movie"
 credits_url = "https://api.themoviedb.org/3/movie/{}/credits"
@@ -41,133 +41,74 @@ def obter_creditos_tmdb(movie_id):
 # Função para ler o arquivo CSV e filtrar filmes de comédia e animação com nota maior que 7
 def ler_csv_filtrado(arquivo_csv):
     df = pd.read_csv(arquivo_csv, delimiter='|', encoding="utf-8")
-    
-    # Remover linhas com valores ausentes ou inválidos
-    df = df[df['genero'].notna() & (df['genero'] != '\\N')]  
-    
-    # Garantir que cada filme seja único
-    df = df.drop_duplicates(subset='id')
-    
-    # Filtrar filmes de comédia e animação com nota maior que 7
+    df = df[df['genero'].notna() & (df['genero'] != '\\N')]  # Remover linhas inválidas
+    df = df.drop_duplicates(subset='id')  # Garantir que cada filme seja único
     df_filtrado = df[df['genero'].str.contains("Comedy|Animation", case=False, na=False)]
-    df_filtrado = df_filtrado[df_filtrado['notaMedia'] > 7]
-    
-    return df_filtrado
+    return df_filtrado[df_filtrado['notaMedia'] > 7]
 
-# Função para processar os filmes e adicionar informações do TMDB
+# Função para processar filmes e adicionar informações do TMDB
 def processar_filmes(filmes_df):
-    filmes_comedia = []
-    filmes_animated = []
-
-    # Filtrar os filmes de comédia e animação
-    filmes_comedia_df = filmes_df[filmes_df['genero'].str.contains("Comedy", case=False, na=False)]
-    filmes_animated_df = filmes_df[filmes_df['genero'].str.contains("Animation", case=False, na=False)]
-
-    # Selecionar os 20 filmes mais votados de cada gênero
-    filmes_comedia_top20 = filmes_comedia_df.nlargest(20, 'numeroVotos')
-    filmes_animated_top20 = filmes_animated_df.nlargest(20, 'numeroVotos')
-
-    # Processar filmes de comédia
-    for index, filme in filmes_comedia_top20.iterrows():
-        titulo_original = filme["tituloOriginal"]
-        dados_tmdb = buscar_dados_tmdb(titulo_original)
+    filmes = []  # Lista única para armazenar todos os filmes
+    
+    # Processar filmes por gênero
+    for genero, filtro in [("comedia", "Comedy"), ("animacao", "Animation")]:
+        filmes_genero_df = filmes_df[filmes_df['genero'].str.contains(filtro, case=False, na=False)]
+        filmes_top20 = filmes_genero_df.nlargest(20, 'numeroVotos')
         
-        if dados_tmdb:
-            generos = [genero["name"] for genero in dados_tmdb.get("genres", [])]
-            detalhes = obter_detalhes_tmdb(dados_tmdb["id"])
+        for index, filme in filmes_top20.iterrows():
+            titulo_original = filme["tituloOriginal"]
+            dados_tmdb = buscar_dados_tmdb(titulo_original)
             
-            if detalhes:
-                creditos = obter_creditos_tmdb(dados_tmdb["id"])
-                diretor = ""
-                principais_atores = []
+            if dados_tmdb:
+                generos = [g["name"] for g in dados_tmdb.get("genres", [])]
+                generos.append(genero)  # Adiciona o gênero correspondente
+                detalhes = obter_detalhes_tmdb(dados_tmdb["id"])
                 
-                if creditos:
-                    for crew_member in creditos.get("crew", []):
-                        if crew_member["job"] == "Director":
-                            diretor = crew_member["name"]
-                            break
+                if detalhes:
+                    creditos = obter_creditos_tmdb(dados_tmdb["id"])
+                    diretor = ""
+                    principais_atores = []
                     
-                    for cast_member in creditos.get("cast", [])[:3]:
-                        principais_atores.append(cast_member["name"])
-                
-                paises = [pais["name"] for pais in detalhes.get("production_countries", [])]
-                
-                filme_completo = {
-                    "id_csv": filme["id"],
-                    "tituloPincipal": filme["tituloPincipal"],
-                    "anoLancamento": filme["anoLancamento"],
-                    "tmdb_id": detalhes["id"],
-                    "titulo_tmdb": detalhes.get("title"),
-                    "sinopse": detalhes.get("overview"),
-                    "popularidade": detalhes.get("popularity"),
-                    "nota_media": detalhes.get("vote_average"),
-                    "votos": detalhes.get("vote_count"),
-                    "data_lancamento": detalhes.get("release_date"),
-                    "generos": generos,
-                    "idioma_original": detalhes.get("original_language", ""),
-                    "faturamento": detalhes.get("revenue"),
-                    "orcamento": detalhes.get("budget"),
-                    "diretor": diretor,
-                    "principais_atores": principais_atores,
-                    "pais_producao": paises,
-                }
-                filmes_comedia.append(filme_completo)
-
-    # Processar filmes de animação
-    for index, filme in filmes_animated_top20.iterrows():
-        titulo_original = filme["tituloOriginal"]
-        dados_tmdb = buscar_dados_tmdb(titulo_original)
-        
-        if dados_tmdb:
-            generos = [genero["name"] for genero in dados_tmdb.get("genres", [])]
-            detalhes = obter_detalhes_tmdb(dados_tmdb["id"])
-            
-            if detalhes:
-                creditos = obter_creditos_tmdb(dados_tmdb["id"])
-                diretor = ""
-                principais_atores = []
-                
-                if creditos:
-                    for crew_member in creditos.get("crew", []):
-                        if crew_member["job"] == "Director":
-                            diretor = crew_member["name"]
-                            break
+                    if creditos:
+                        for crew_member in creditos.get("crew", []):
+                            if crew_member["job"] == "Director":
+                                diretor = crew_member["name"]
+                                break
+                        
+                        for cast_member in creditos.get("cast", [])[:3]:
+                            principais_atores.append(cast_member["name"])
                     
-                    for cast_member in creditos.get("cast", [])[:3]:
-                        principais_atores.append(cast_member["name"])
-                
-                paises = [pais["name"] for pais in detalhes.get("production_countries", [])]
-                
-                filme_completo = {
-                    "id_csv": filme["id"],
-                    "tituloPincipal": filme["tituloPincipal"],
-                    "anoLancamento": filme["anoLancamento"],
-                    "tmdb_id": detalhes["id"],
-                    "titulo_tmdb": detalhes.get("title"),
-                    "sinopse": detalhes.get("overview"),
-                    "popularidade": detalhes.get("popularity"),
-                    "nota_media": detalhes.get("vote_average"),
-                    "votos": detalhes.get("vote_count"),
-                    "data_lancamento": detalhes.get("release_date"),
-                    "generos": generos,
-                    "idioma_original": detalhes.get("original_language", ""),
-                    "faturamento": detalhes.get("revenue"),
-                    "orcamento": detalhes.get("budget"),
-                    "diretor": diretor,
-                    "principais_atores": principais_atores,
-                    "pais_producao": paises,
-                }
-                filmes_animated.append(filme_completo)
-
-    return filmes_comedia, filmes_animated
+                    paises = [pais["name"] for pais in detalhes.get("production_countries", [])]
+                    
+                    filme_completo = {
+                        "id_csv": filme["id"],
+                        "tituloPincipal": filme["tituloPincipal"],
+                        "anoLancamento": filme["anoLancamento"],
+                        "tmdb_id": detalhes["id"],
+                        "titulo_tmdb": detalhes.get("title"),
+                        "popularidade": detalhes.get("popularity"),
+                        "nota_media": detalhes.get("vote_average"),
+                        "votos": detalhes.get("vote_count"),
+                        "data_lancamento": detalhes.get("release_date"),
+                        "generos": generos,
+                        "idioma_original": detalhes.get("original_language", ""),
+                        "faturamento": detalhes.get("revenue"),
+                        "orcamento": detalhes.get("budget"),
+                        "diretor": diretor,
+                        "principais_atores": principais_atores,
+                        "pais_producao": paises,
+                        "genero": genero,  # Campo específico do gênero
+                    }
+                    filmes.append(filme_completo)
+    return filmes
 
 # Caminho para o arquivo CSV
 arquivo_csv = 'movies.csv'
 
 # Filtrando e processando os filmes
 df_filtrado = ler_csv_filtrado(arquivo_csv)
-filmes_comedia, filmes_animated = processar_filmes(df_filtrado)
+filmes = processar_filmes(df_filtrado)
 
-# Salvando os resultados em um arquivo JSON
-with open('filmes_comedia_animacao.json', 'w', encoding='utf-8') as f:
-    json.dump({"comedia": filmes_comedia, "animacao": filmes_animated}, f, ensure_ascii=False, indent=4)
+# Salvando os resultados em um único arquivo JSON
+with open('filmes.json', 'w', encoding='utf-8') as f:
+    json.dump(filmes, f, ensure_ascii=False, indent=4)

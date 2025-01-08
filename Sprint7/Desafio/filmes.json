@@ -1,0 +1,1087 @@
+[
+    {
+        "id_csv": "tt0993846",
+        "tituloPincipal": "The Wolf of Wall Street",
+        "anoLancamento": "2013",
+        "tmdb_id": 106646,
+        "titulo_tmdb": "O Lobo de Wall Street",
+        "popularidade": 110.458,
+        "nota_media": 8.033,
+        "votos": 24109,
+        "data_lancamento": "2013-12-25",
+        "generos": [
+            "comedia"
+        ],
+        "idioma_original": "en",
+        "faturamento": 392000000,
+        "orcamento": 100000000,
+        "diretor": "Martin Scorsese",
+        "principais_atores": [
+            "Leonardo DiCaprio",
+            "Jonah Hill",
+            "Margot Robbie"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "comedia"
+    },
+    {
+        "id_csv": "tt0088763",
+        "tituloPincipal": "Back to the Future",
+        "anoLancamento": "1985",
+        "tmdb_id": 105,
+        "titulo_tmdb": "De Volta para o Futuro",
+        "popularidade": 78.71,
+        "nota_media": 8.3,
+        "votos": 20074,
+        "data_lancamento": "1985-07-03",
+        "generos": [
+            "comedia"
+        ],
+        "idioma_original": "en",
+        "faturamento": 381109762,
+        "orcamento": 19000000,
+        "diretor": "Robert Zemeckis",
+        "principais_atores": [
+            "Michael J. Fox",
+            "Christopher Lloyd",
+            "Crispin Glover"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "comedia"
+    },
+    {
+        "id_csv": "tt2015381",
+        "tituloPincipal": "Guardians of the Galaxy",
+        "anoLancamento": "2014",
+        "tmdb_id": 118340,
+        "titulo_tmdb": "Guardiões da Galáxia",
+        "popularidade": 46.865,
+        "nota_media": 7.906,
+        "votos": 28113,
+        "data_lancamento": "2014-07-30",
+        "generos": [
+            "comedia"
+        ],
+        "idioma_original": "en",
+        "faturamento": 772776600,
+        "orcamento": 170000000,
+        "diretor": "James Gunn",
+        "principais_atores": [
+            "Chris Pratt",
+            "Zoe Saldaña",
+            "Dave Bautista"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "comedia"
+    },
+    {
+        "id_csv": "tt0120382",
+        "tituloPincipal": "The Truman Show",
+        "anoLancamento": "1998",
+        "tmdb_id": 37165,
+        "titulo_tmdb": "O Show de Truman: O Show da Vida",
+        "popularidade": 78.652,
+        "nota_media": 8.146,
+        "votos": 18464,
+        "data_lancamento": "1998-06-04",
+        "generos": [
+            "comedia"
+        ],
+        "idioma_original": "en",
+        "faturamento": 264100000,
+        "orcamento": 60000000,
+        "diretor": "Peter Weir",
+        "principais_atores": [
+            "Jim Carrey",
+            "Laura Linney",
+            "Noah Emmerich"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "comedia"
+    },
+    {
+        "id_csv": "tt0266543",
+        "tituloPincipal": "Finding Nemo",
+        "anoLancamento": "2003",
+        "tmdb_id": 12,
+        "titulo_tmdb": "Procurando Nemo",
+        "popularidade": 112.205,
+        "nota_media": 7.819,
+        "votos": 19336,
+        "data_lancamento": "2003-05-30",
+        "generos": [
+            "comedia"
+        ],
+        "idioma_original": "en",
+        "faturamento": 940335536,
+        "orcamento": 94000000,
+        "diretor": "Andrew Stanton",
+        "principais_atores": [
+            "Albert Brooks",
+            "Ellen DeGeneres",
+            "Alexander Gould"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "comedia"
+    },
+    {
+        "id_csv": "tt1049413",
+        "tituloPincipal": "Up",
+        "anoLancamento": "2009",
+        "tmdb_id": 14160,
+        "titulo_tmdb": "Up: Altas Aventuras",
+        "popularidade": 92.273,
+        "nota_media": 7.958,
+        "votos": 20308,
+        "data_lancamento": "2009-05-28",
+        "generos": [
+            "comedia"
+        ],
+        "idioma_original": "en",
+        "faturamento": 735099082,
+        "orcamento": 175000000,
+        "diretor": "Pete Docter",
+        "principais_atores": [
+            "Ed Asner",
+            "Christopher Plummer",
+            "Jordan Nagai"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "comedia"
+    },
+    {
+        "id_csv": "tt1431045",
+        "tituloPincipal": "Deadpool",
+        "anoLancamento": "2016",
+        "tmdb_id": 293660,
+        "titulo_tmdb": "Deadpool",
+        "popularidade": 110.21,
+        "nota_media": 7.6,
+        "votos": 31176,
+        "data_lancamento": "2016-02-09",
+        "generos": [
+            "comedia"
+        ],
+        "idioma_original": "en",
+        "faturamento": 782837347,
+        "orcamento": 58000000,
+        "diretor": "Tim Miller",
+        "principais_atores": [
+            "Ryan Reynolds",
+            "Morena Baccarin",
+            "Ed Skrein"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "comedia"
+    },
+    {
+        "id_csv": "tt0114709",
+        "tituloPincipal": "Toy Story",
+        "anoLancamento": "1995",
+        "tmdb_id": 862,
+        "titulo_tmdb": "Toy Story: Um Mundo de Aventuras",
+        "popularidade": 162.809,
+        "nota_media": 7.969,
+        "votos": 18491,
+        "data_lancamento": "1995-10-30",
+        "generos": [
+            "comedia"
+        ],
+        "idioma_original": "en",
+        "faturamento": 394436586,
+        "orcamento": 30000000,
+        "diretor": "John Lasseter",
+        "principais_atores": [
+            "Tom Hanks",
+            "Tim Allen",
+            "Don Rickles"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "comedia"
+    },
+    {
+        "id_csv": "tt0198781",
+        "tituloPincipal": "Monsters, Inc.",
+        "anoLancamento": "2001",
+        "tmdb_id": 585,
+        "titulo_tmdb": "Monstros S.A.",
+        "popularidade": 131.434,
+        "nota_media": 7.8,
+        "votos": 18529,
+        "data_lancamento": "2001-11-01",
+        "generos": [
+            "comedia"
+        ],
+        "idioma_original": "en",
+        "faturamento": 579700000,
+        "orcamento": 115000000,
+        "diretor": "Pete Docter",
+        "principais_atores": [
+            "John Goodman",
+            "Billy Crystal",
+            "Mary Gibbs"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "comedia"
+    },
+    {
+        "id_csv": "tt1675434",
+        "tituloPincipal": "The Intouchables",
+        "anoLancamento": "2011",
+        "tmdb_id": 77338,
+        "titulo_tmdb": "Intocáveis",
+        "popularidade": 98.069,
+        "nota_media": 8.274,
+        "votos": 17305,
+        "data_lancamento": "2011-11-02",
+        "generos": [
+            "comedia"
+        ],
+        "idioma_original": "fr",
+        "faturamento": 426590315,
+        "orcamento": 13000000,
+        "diretor": "Olivier Nakache",
+        "principais_atores": [
+            "François Cluzet",
+            "Omar Sy",
+            "Dominique Henry"
+        ],
+        "pais_producao": [
+            "France"
+        ],
+        "genero": "comedia"
+    },
+    {
+        "id_csv": "tt0208092",
+        "tituloPincipal": "Snatch",
+        "anoLancamento": "2000",
+        "tmdb_id": 107,
+        "titulo_tmdb": "Snatch: Porcos e Diamantes",
+        "popularidade": 49.308,
+        "nota_media": 7.811,
+        "votos": 9076,
+        "data_lancamento": "2000-09-01",
+        "generos": [
+            "comedia"
+        ],
+        "idioma_original": "en",
+        "faturamento": 83600000,
+        "orcamento": 10000000,
+        "diretor": "Guy Ritchie",
+        "principais_atores": [
+            "Brad Pitt",
+            "Jason Statham",
+            "Alan Ford"
+        ],
+        "pais_producao": [
+            "United Kingdom"
+        ],
+        "genero": "comedia"
+    },
+    {
+        "id_csv": "tt0435761",
+        "tituloPincipal": "Toy Story 3",
+        "anoLancamento": "2010",
+        "tmdb_id": 10193,
+        "titulo_tmdb": "Toy Story 3",
+        "popularidade": 91.012,
+        "nota_media": 7.799,
+        "votos": 14732,
+        "data_lancamento": "2010-06-16",
+        "generos": [
+            "comedia"
+        ],
+        "idioma_original": "en",
+        "faturamento": 1067316101,
+        "orcamento": 200000000,
+        "diretor": "Lee Unkrich",
+        "principais_atores": [
+            "Tom Hanks",
+            "Tim Allen",
+            "Joan Cusack"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "comedia"
+    },
+    {
+        "id_csv": "tt0118715",
+        "tituloPincipal": "The Big Lebowski",
+        "anoLancamento": "1998",
+        "tmdb_id": 115,
+        "titulo_tmdb": "O Grande Lebowski",
+        "popularidade": 36.673,
+        "nota_media": 7.8,
+        "votos": 11229,
+        "data_lancamento": "1998-03-06",
+        "generos": [
+            "comedia"
+        ],
+        "idioma_original": "en",
+        "faturamento": 47010480,
+        "orcamento": 15000000,
+        "diretor": "Joel Coen",
+        "principais_atores": [
+            "Jeff Bridges",
+            "John Goodman",
+            "Julianne Moore"
+        ],
+        "pais_producao": [
+            "United Kingdom",
+            "United States of America"
+        ],
+        "genero": "comedia"
+    },
+    {
+        "id_csv": "tt2278388",
+        "tituloPincipal": "The Grand Budapest Hotel",
+        "anoLancamento": "2014",
+        "tmdb_id": 120467,
+        "titulo_tmdb": "O Grande Hotel Budapeste",
+        "popularidade": 50.065,
+        "nota_media": 8.046,
+        "votos": 14857,
+        "data_lancamento": "2014-02-26",
+        "generos": [
+            "comedia"
+        ],
+        "idioma_original": "en",
+        "faturamento": 174600318,
+        "orcamento": 30000000,
+        "diretor": "Wes Anderson",
+        "principais_atores": [
+            "Ralph Fiennes",
+            "F. Murray Abraham",
+            "Mathieu Amalric"
+        ],
+        "pais_producao": [
+            "Germany",
+            "United States of America"
+        ],
+        "genero": "comedia"
+    },
+    {
+        "id_csv": "tt1119646",
+        "tituloPincipal": "The Hangover",
+        "anoLancamento": "2009",
+        "tmdb_id": 18785,
+        "titulo_tmdb": "Se Beber, Não Case!",
+        "popularidade": 111.514,
+        "nota_media": 7.323,
+        "votos": 16921,
+        "data_lancamento": "2009-06-02",
+        "generos": [
+            "comedia"
+        ],
+        "idioma_original": "en",
+        "faturamento": 469310836,
+        "orcamento": 35000000,
+        "diretor": "Todd Phillips",
+        "principais_atores": [
+            "Bradley Cooper",
+            "Ed Helms",
+            "Zach Galifianakis"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "comedia"
+    },
+    {
+        "id_csv": "tt0211915",
+        "tituloPincipal": "Amélie",
+        "anoLancamento": "2001",
+        "tmdb_id": 194,
+        "titulo_tmdb": "O Fabuloso Destino de Amélie Poulain",
+        "popularidade": 46.848,
+        "nota_media": 7.915,
+        "votos": 11560,
+        "data_lancamento": "2001-04-25",
+        "generos": [
+            "comedia"
+        ],
+        "idioma_original": "fr",
+        "faturamento": 173921954,
+        "orcamento": 10000000,
+        "diretor": "Jean-Pierre Jeunet",
+        "principais_atores": [
+            "Audrey Tautou",
+            "Mathieu Kassovitz",
+            "Rufus"
+        ],
+        "pais_producao": [
+            "France",
+            "Germany"
+        ],
+        "genero": "comedia"
+    },
+    {
+        "id_csv": "tt3501632",
+        "tituloPincipal": "Thor: Ragnarok",
+        "anoLancamento": "2017",
+        "tmdb_id": 284053,
+        "titulo_tmdb": "Thor: Ragnarok",
+        "popularidade": 102.235,
+        "nota_media": 7.589,
+        "votos": 20819,
+        "data_lancamento": "2017-10-02",
+        "generos": [
+            "comedia"
+        ],
+        "idioma_original": "en",
+        "faturamento": 855301806,
+        "orcamento": 180000000,
+        "diretor": "Taika Waititi",
+        "principais_atores": [
+            "Chris Hemsworth",
+            "Mark Ruffalo",
+            "Tom Hiddleston"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "comedia"
+    },
+    {
+        "id_csv": "tt0382932",
+        "tituloPincipal": "Ratatouille",
+        "anoLancamento": "2007",
+        "tmdb_id": 2062,
+        "titulo_tmdb": "Ratatouille",
+        "popularidade": 144.059,
+        "nota_media": 7.825,
+        "votos": 17148,
+        "data_lancamento": "2007-06-21",
+        "generos": [
+            "comedia"
+        ],
+        "idioma_original": "en",
+        "faturamento": 623726000,
+        "orcamento": 150000000,
+        "diretor": "Brad Bird",
+        "principais_atores": [
+            "Patton Oswalt",
+            "Ian Holm",
+            "Lou Romano"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "comedia"
+    },
+    {
+        "id_csv": "tt7131622",
+        "tituloPincipal": "Once Upon a Time in Hollywood",
+        "anoLancamento": "2019",
+        "tmdb_id": 466272,
+        "titulo_tmdb": "Era Uma Vez em… Hollywood",
+        "popularidade": 69.255,
+        "nota_media": 7.438,
+        "votos": 13521,
+        "data_lancamento": "2019-07-24",
+        "generos": [
+            "comedia"
+        ],
+        "idioma_original": "en",
+        "faturamento": 392105159,
+        "orcamento": 95000000,
+        "diretor": "Quentin Tarantino",
+        "principais_atores": [
+            "Leonardo DiCaprio",
+            "Brad Pitt",
+            "Margot Robbie"
+        ],
+        "pais_producao": [
+            "China",
+            "United Kingdom",
+            "United States of America"
+        ],
+        "genero": "comedia"
+    },
+    {
+        "id_csv": "tt2096673",
+        "tituloPincipal": "Inside Out",
+        "anoLancamento": "2015",
+        "tmdb_id": 150540,
+        "titulo_tmdb": "Divertida Mente",
+        "popularidade": 156.104,
+        "nota_media": 7.9,
+        "votos": 22109,
+        "data_lancamento": "2015-06-17",
+        "generos": [
+            "comedia"
+        ],
+        "idioma_original": "en",
+        "faturamento": 857611174,
+        "orcamento": 175000000,
+        "diretor": "Pete Docter",
+        "principais_atores": [
+            "Amy Poehler",
+            "Phyllis Smith",
+            "Richard Kind"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "comedia"
+    },
+    {
+        "id_csv": "tt0910970",
+        "tituloPincipal": "WALL·E",
+        "anoLancamento": "2008",
+        "tmdb_id": 10681,
+        "titulo_tmdb": "WALL-E",
+        "popularidade": 87.609,
+        "nota_media": 8.1,
+        "votos": 18867,
+        "data_lancamento": "2008-06-22",
+        "generos": [
+            "animacao"
+        ],
+        "idioma_original": "en",
+        "faturamento": 521311860,
+        "orcamento": 180000000,
+        "diretor": "Andrew Stanton",
+        "principais_atores": [
+            "Ben Burtt",
+            "Elissa Knight",
+            "Jeff Garlin"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "animacao"
+    },
+    {
+        "id_csv": "tt0110357",
+        "tituloPincipal": "The Lion King",
+        "anoLancamento": "1994",
+        "tmdb_id": 762509,
+        "titulo_tmdb": "Mufasa: O Rei Leão",
+        "popularidade": 2924.518,
+        "nota_media": 7.5,
+        "votos": 498,
+        "data_lancamento": "2024-12-18",
+        "generos": [
+            "animacao"
+        ],
+        "idioma_original": "en",
+        "faturamento": 478145305,
+        "orcamento": 200000000,
+        "diretor": "Barry Jenkins",
+        "principais_atores": [
+            "Aaron Pierre",
+            "Kelvin Harrison Jr.",
+            "Tiffany Boone"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "animacao"
+    },
+    {
+        "id_csv": "tt0266543",
+        "tituloPincipal": "Finding Nemo",
+        "anoLancamento": "2003",
+        "tmdb_id": 12,
+        "titulo_tmdb": "Procurando Nemo",
+        "popularidade": 112.205,
+        "nota_media": 7.819,
+        "votos": 19336,
+        "data_lancamento": "2003-05-30",
+        "generos": [
+            "animacao"
+        ],
+        "idioma_original": "en",
+        "faturamento": 940335536,
+        "orcamento": 94000000,
+        "diretor": "Andrew Stanton",
+        "principais_atores": [
+            "Albert Brooks",
+            "Ellen DeGeneres",
+            "Alexander Gould"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "animacao"
+    },
+    {
+        "id_csv": "tt1049413",
+        "tituloPincipal": "Up",
+        "anoLancamento": "2009",
+        "tmdb_id": 14160,
+        "titulo_tmdb": "Up: Altas Aventuras",
+        "popularidade": 92.273,
+        "nota_media": 7.958,
+        "votos": 20308,
+        "data_lancamento": "2009-05-28",
+        "generos": [
+            "animacao"
+        ],
+        "idioma_original": "en",
+        "faturamento": 735099082,
+        "orcamento": 175000000,
+        "diretor": "Pete Docter",
+        "principais_atores": [
+            "Ed Asner",
+            "Christopher Plummer",
+            "Jordan Nagai"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "animacao"
+    },
+    {
+        "id_csv": "tt0114709",
+        "tituloPincipal": "Toy Story",
+        "anoLancamento": "1995",
+        "tmdb_id": 862,
+        "titulo_tmdb": "Toy Story: Um Mundo de Aventuras",
+        "popularidade": 162.809,
+        "nota_media": 7.969,
+        "votos": 18491,
+        "data_lancamento": "1995-10-30",
+        "generos": [
+            "animacao"
+        ],
+        "idioma_original": "en",
+        "faturamento": 394436586,
+        "orcamento": 30000000,
+        "diretor": "John Lasseter",
+        "principais_atores": [
+            "Tom Hanks",
+            "Tim Allen",
+            "Don Rickles"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "animacao"
+    },
+    {
+        "id_csv": "tt0198781",
+        "tituloPincipal": "Monsters, Inc.",
+        "anoLancamento": "2001",
+        "tmdb_id": 585,
+        "titulo_tmdb": "Monstros S.A.",
+        "popularidade": 131.434,
+        "nota_media": 7.8,
+        "votos": 18529,
+        "data_lancamento": "2001-11-01",
+        "generos": [
+            "animacao"
+        ],
+        "idioma_original": "en",
+        "faturamento": 579700000,
+        "orcamento": 115000000,
+        "diretor": "Pete Docter",
+        "principais_atores": [
+            "John Goodman",
+            "Billy Crystal",
+            "Mary Gibbs"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "animacao"
+    },
+    {
+        "id_csv": "tt0435761",
+        "tituloPincipal": "Toy Story 3",
+        "anoLancamento": "2010",
+        "tmdb_id": 10193,
+        "titulo_tmdb": "Toy Story 3",
+        "popularidade": 91.012,
+        "nota_media": 7.799,
+        "votos": 14732,
+        "data_lancamento": "2010-06-16",
+        "generos": [
+            "animacao"
+        ],
+        "idioma_original": "en",
+        "faturamento": 1067316101,
+        "orcamento": 200000000,
+        "diretor": "Lee Unkrich",
+        "principais_atores": [
+            "Tom Hanks",
+            "Tim Allen",
+            "Joan Cusack"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "animacao"
+    },
+    {
+        "id_csv": "tt0245429",
+        "tituloPincipal": "Spirited Away",
+        "anoLancamento": "2001",
+        "tmdb_id": 129,
+        "titulo_tmdb": "A Viagem de Chihiro",
+        "popularidade": 109.332,
+        "nota_media": 8.537,
+        "votos": 16667,
+        "data_lancamento": "2001-07-20",
+        "generos": [
+            "animacao"
+        ],
+        "idioma_original": "ja",
+        "faturamento": 274925095,
+        "orcamento": 19000000,
+        "diretor": "Hayao Miyazaki",
+        "principais_atores": [
+            "Rumi Hiiragi",
+            "Miyu Irino",
+            "Mari Natsuki"
+        ],
+        "pais_producao": [
+            "Japan"
+        ],
+        "genero": "animacao"
+    },
+    {
+        "id_csv": "tt0892769",
+        "tituloPincipal": "How to Train Your Dragon",
+        "anoLancamento": "2010",
+        "tmdb_id": 10191,
+        "titulo_tmdb": "Como Treinar o Seu Dragão",
+        "popularidade": 114.261,
+        "nota_media": 7.8,
+        "votos": 13107,
+        "data_lancamento": "2010-03-18",
+        "generos": [
+            "animacao"
+        ],
+        "idioma_original": "en",
+        "faturamento": 494879471,
+        "orcamento": 165000000,
+        "diretor": "Chris Sanders",
+        "principais_atores": [
+            "Jay Baruchel",
+            "Gerard Butler",
+            "Craig Ferguson"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "animacao"
+    },
+    {
+        "id_csv": "tt0317705",
+        "tituloPincipal": "The Incredibles",
+        "anoLancamento": "2004",
+        "tmdb_id": 9806,
+        "titulo_tmdb": "Os Incríveis",
+        "popularidade": 104.83,
+        "nota_media": 7.71,
+        "votos": 17718,
+        "data_lancamento": "2004-10-27",
+        "generos": [
+            "animacao"
+        ],
+        "idioma_original": "en",
+        "faturamento": 631442092,
+        "orcamento": 92000000,
+        "diretor": "Brad Bird",
+        "principais_atores": [
+            "Craig T. Nelson",
+            "Holly Hunter",
+            "Sarah Vowell"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "animacao"
+    },
+    {
+        "id_csv": "tt0382932",
+        "tituloPincipal": "Ratatouille",
+        "anoLancamento": "2007",
+        "tmdb_id": 2062,
+        "titulo_tmdb": "Ratatouille",
+        "popularidade": 144.059,
+        "nota_media": 7.825,
+        "votos": 17148,
+        "data_lancamento": "2007-06-21",
+        "generos": [
+            "animacao"
+        ],
+        "idioma_original": "en",
+        "faturamento": 623726000,
+        "orcamento": 150000000,
+        "diretor": "Brad Bird",
+        "principais_atores": [
+            "Patton Oswalt",
+            "Ian Holm",
+            "Lou Romano"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "animacao"
+    },
+    {
+        "id_csv": "tt2096673",
+        "tituloPincipal": "Inside Out",
+        "anoLancamento": "2015",
+        "tmdb_id": 150540,
+        "titulo_tmdb": "Divertida Mente",
+        "popularidade": 156.104,
+        "nota_media": 7.9,
+        "votos": 22109,
+        "data_lancamento": "2015-06-17",
+        "generos": [
+            "animacao"
+        ],
+        "idioma_original": "en",
+        "faturamento": 857611174,
+        "orcamento": 175000000,
+        "diretor": "Pete Docter",
+        "principais_atores": [
+            "Amy Poehler",
+            "Phyllis Smith",
+            "Richard Kind"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "animacao"
+    },
+    {
+        "id_csv": "tt0126029",
+        "tituloPincipal": "Shrek",
+        "anoLancamento": "2001",
+        "tmdb_id": 808,
+        "titulo_tmdb": "Shrek",
+        "popularidade": 214.652,
+        "nota_media": 7.744,
+        "votos": 17246,
+        "data_lancamento": "2001-05-18",
+        "generos": [
+            "animacao"
+        ],
+        "idioma_original": "en",
+        "faturamento": 488628188,
+        "orcamento": 60000000,
+        "diretor": "Andrew Adamson",
+        "principais_atores": [
+            "Mike Myers",
+            "Eddie Murphy",
+            "Cameron Diaz"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "animacao"
+    },
+    {
+        "id_csv": "tt2294629",
+        "tituloPincipal": "Frozen",
+        "anoLancamento": "2013",
+        "tmdb_id": 109445,
+        "titulo_tmdb": "Frozen: Uma Aventura Congelante",
+        "popularidade": 152.153,
+        "nota_media": 7.246,
+        "votos": 16595,
+        "data_lancamento": "2013-11-20",
+        "generos": [
+            "animacao"
+        ],
+        "idioma_original": "en",
+        "faturamento": 1274219009,
+        "orcamento": 150000000,
+        "diretor": "Chris Buck",
+        "principais_atores": [
+            "Kristen Bell",
+            "Idina Menzel",
+            "Jonathan Groff"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "animacao"
+    },
+    {
+        "id_csv": "tt0120363",
+        "tituloPincipal": "Toy Story 2",
+        "anoLancamento": "1999",
+        "tmdb_id": 863,
+        "titulo_tmdb": "Toy Story 2",
+        "popularidade": 96.165,
+        "nota_media": 7.6,
+        "votos": 13914,
+        "data_lancamento": "1999-10-30",
+        "generos": [
+            "animacao"
+        ],
+        "idioma_original": "en",
+        "faturamento": 497375381,
+        "orcamento": 90000000,
+        "diretor": "John Lasseter",
+        "principais_atores": [
+            "Tom Hanks",
+            "Tim Allen",
+            "Joan Cusack"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "animacao"
+    },
+    {
+        "id_csv": "tt1323594",
+        "tituloPincipal": "Despicable Me",
+        "anoLancamento": "2010",
+        "tmdb_id": 519182,
+        "titulo_tmdb": "Meu Malvado Favorito 4",
+        "popularidade": 582.552,
+        "nota_media": 7.1,
+        "votos": 2389,
+        "data_lancamento": "2024-06-20",
+        "generos": [
+            "animacao"
+        ],
+        "idioma_original": "en",
+        "faturamento": 969126452,
+        "orcamento": 100000000,
+        "diretor": "Chris Renaud",
+        "principais_atores": [
+            "Steve Carell",
+            "Kristen Wiig",
+            "Will Ferrell"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "animacao"
+    },
+    {
+        "id_csv": "tt4633694",
+        "tituloPincipal": "Spider-Man: Into the Spider-Verse",
+        "anoLancamento": "2018",
+        "tmdb_id": 324857,
+        "titulo_tmdb": "Homem-Aranha: No Aranhaverso",
+        "popularidade": 93.545,
+        "nota_media": 8.4,
+        "votos": 15762,
+        "data_lancamento": "2018-12-06",
+        "generos": [
+            "animacao"
+        ],
+        "idioma_original": "en",
+        "faturamento": 384298736,
+        "orcamento": 90000000,
+        "diretor": "Bob Persichetti",
+        "principais_atores": [
+            "Shameik Moore",
+            "Jake Johnson",
+            "Hailee Steinfeld"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "animacao"
+    },
+    {
+        "id_csv": "tt2380307",
+        "tituloPincipal": "Coco",
+        "anoLancamento": "2017",
+        "tmdb_id": 354912,
+        "titulo_tmdb": "Viva: A Vida é uma Festa",
+        "popularidade": 144.392,
+        "nota_media": 8.207,
+        "votos": 19621,
+        "data_lancamento": "2017-10-27",
+        "generos": [
+            "animacao"
+        ],
+        "idioma_original": "en",
+        "faturamento": 807816196,
+        "orcamento": 175000000,
+        "diretor": "Lee Unkrich",
+        "principais_atores": [
+            "Anthony Gonzalez",
+            "Gael García Bernal",
+            "Benjamin Bratt"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "animacao"
+    },
+    {
+        "id_csv": "tt2948356",
+        "tituloPincipal": "Zootopia",
+        "anoLancamento": "2016",
+        "tmdb_id": 269149,
+        "titulo_tmdb": "Zootopia: Essa Cidade é o Bicho",
+        "popularidade": 127.13,
+        "nota_media": 7.75,
+        "votos": 16403,
+        "data_lancamento": "2016-02-11",
+        "generos": [
+            "animacao"
+        ],
+        "idioma_original": "en",
+        "faturamento": 1023784195,
+        "orcamento": 150000000,
+        "diretor": "Byron Howard",
+        "principais_atores": [
+            "Jason Bateman",
+            "Ginnifer Goodwin",
+            "Idris Elba"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "animacao"
+    },
+    {
+        "id_csv": "tt0268380",
+        "tituloPincipal": "Ice Age",
+        "anoLancamento": "2002",
+        "tmdb_id": 425,
+        "titulo_tmdb": "A Era do Gelo",
+        "popularidade": 115.177,
+        "nota_media": 7.362,
+        "votos": 13335,
+        "data_lancamento": "2002-03-10",
+        "generos": [
+            "animacao"
+        ],
+        "idioma_original": "en",
+        "faturamento": 383257136,
+        "orcamento": 59000000,
+        "diretor": "Chris Wedge",
+        "principais_atores": [
+            "Ray Romano",
+            "John Leguizamo",
+            "Denis Leary"
+        ],
+        "pais_producao": [
+            "United States of America"
+        ],
+        "genero": "animacao"
+    }
+]

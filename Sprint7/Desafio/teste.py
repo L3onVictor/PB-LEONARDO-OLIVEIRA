@@ -12,7 +12,7 @@ s3_client = session.client('s3')
 bucket_name = 'data-lake-do-leonardo'
 
 # Caminho do arquivo no S3 e caminho onde o arquivo será salvo localmente
-arquivo_s3 = 'Raw/TMDB/JSON/2024/12/31/movies_comedia_animacao.json'  # Caminho do arquivo no S3
+arquivo_s3 = 'Raw/TMDB/JSON/2025/01/07/movies_comedia_animacao.json'  # Caminho do arquivo no S3
 arquivo_local = 'movies_comedia_animacao.json'  # Caminho onde o arquivo será salvo localmente
 
 # Função para baixar o arquivo do S3

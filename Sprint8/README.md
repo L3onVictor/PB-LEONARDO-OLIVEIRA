@@ -142,6 +142,128 @@ Resultado do código
 ![Resultado código](./Exercicios/Evidencias_exercicios/Resultado_codigo.png)
 ## Desafio
 
+Pesquisando o Glue na AWS
+
+![glue](./Evidencias/pesquisando-glue.png)
+
+Interface glue
+![interface glue](./Evidencias/dentro-glue.png)
+
+Criando o job
+
+![criando job](./Evidencias/criando-job01.png)
+
+![criando job](./Evidencias/criando-job02.png)
+
+Configurando o job
+
+![Configurando o job](./Evidencias/configurando-job.png)
+
+Script do job que enviará o arquivo .json
+
+![Script job json](./Evidencias/codigo-job-json.png)
+
+Rodando o job do arquivo .json
+
+![rodando o job](./Evidencias/rodando-job.png)
+
+Bucket sem diretorio Trusted
+
+![No trusted](./Evidencias/bucket-sem-trusted.png)
+
+Job concluido
+
+![job sucess](./Evidencias/job-concluido.png)
+
+Caminho criado no bucket
+
+![caminho trusted](./Evidencias/caminho-trusted.png)
+
+![tmdb](./Evidencias/tmdb.png)
+
+![parquet](./Evidencias/parquet.png)
+
+![comedia_animacao](./Evidencias/comedia_animacao.png)
+
+![ano](./Evidencias/ano.png)
+
+![mes](./Evidencias/mes.png)
+
+![dia](./Evidencias/dia.png)
+
+Arquivo json salvo nesse caminho
+
+![arquivi](./Evidencias/arquivo-enviado.png)
+
+Criando crawler
+
+![criando crawler](./Evidencias/criando-crawler.png)
+
+Configurando o crawler
+
+![Configurando crawler](./Evidencias/configurando-crawler01.png)
+
+![Configurando crawler](./Evidencias/configurando-crawler02.png)
+
+![Configurando crawler](./Evidencias/configurando-crawler03.png)
+
+Crawler criado com sucesso
+
+![crawler criado](./Evidencias/crawler-criado.png)
+
+Executando o crawler
+
+![exe crawler](./Evidencias/exe-crawler.png)
+
+Pesquisando Athena
+
+![athena](./Evidencias/pesquisando-athena.png)
+
+Tabela criada com o crawler do glue
+
+![tabela json](./Evidencias/tabela-criada.png)
+
+Codigo para mostrar a tabela do arquivo json
+
+![código sql athena json](./Evidencias/codigo-tabela-json.png)
+
+resultado da tabela json no athena
+
+![resultado tabela json](./Evidencias/tabela-json.png)
+
+Código do job do arquivo csv
+
+![job csv script](./Evidencias/codigo-job-csv.png)
+
+Rodando job csv
+
+![rodando Script csv](./Evidencias/rodando-job-csv.png)
+
+![job sucess](./Evidencias/job-sucess.png)
+
+caminho criado no Bucket 
+
+![local](./Evidencias/pasta-local.png)
+
+![parquet](./Evidencias/csv-parquet.png)
+
+![movies](./Evidencias/movies.png)
+
+![ano](./Evidencias/csv-ano.png)
+
+![mes](./Evidencias/csv-mes.png)
+
+![dia](./Evidencias/csv-dia.png)
+
+Arquivo csv transformado em parquet e enviado ao Bucket
+
+![csv para parquet](./Evidencias/arquivo-csv.png)
+
+Tabela do arquivo movies.csv no Athena
+
+![codigo tabela csv](./Evidencias/codigo-tabela-csv.png)
+
+![resultado tabela csv](./Evidencias/tabela-csv.png)
 # Exercicios
 **Observação:** Todos os exercícios realizados nessa Sprint foram feitos utilizando o **google colab**.
 
