@@ -12,7 +12,7 @@ spark = SparkSession(sc)
 spark.conf.set("spark.sql.files.ignoreCorruptFiles", "true")
 
 # Definir o caminho do S3
-input_path = "s3://data-lake-do-leonardo/Raw/TMDB/JSON/2025/01/07/movies_comedia_animacao.json"  # Caminho do seu arquivo JSON no S3
+input_path = "s3://data-lake-do-leonardo/Raw/TMDB/JSON/2025/01/07/movies_comedia_animacao.json"
 
 # Definir a data de processamento (ano, mês, dia)
 data_processamento = datetime.now()
