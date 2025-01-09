@@ -94,7 +94,7 @@ Apôs ser executado, podemos ver o caminho que foi criado no Bucket para a trans
 
 > O caminho para qual o arquivo deve ser armazenado deve seguir a seguinte estrutura:
 
-```Origem do dado\formato do dado\especificação do dado\data de processamento separada por ano\mes\dialarquivo```
+```Origem do dado\formato do dado\especificação do dado\data de processamento separada por ano\mes\dia\arquivo```
 
 > Job concluido com sucesso
 
@@ -300,4 +300,4 @@ Resultado do código anterior
 
 ![resultado tabela csv](../Evidencias/tabela-csv.png)
 
-Com isso o Desafio foi finalizado. todos os arquivos enviados seguem a mesma estrutura de caminho, que seria: ```Origem do dado\formato do dado\especificação do dado\data de processamento separada por ano\mes\dialarquivo```.
+Com isso o Desafio foi finalizado. todos os arquivos enviados seguem a mesma estrutura de caminho, que seria: ```Origem do dado\formato do dado\especificação do dado\data de processamento separada por ano\mes\dia\arquivo```.
