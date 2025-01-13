@@ -17,7 +17,7 @@ glueContext = GlueContext(SparkContext.getOrCreate())
 job_name = args["JOB_NAME"]
 
 # Caminho do arquivo CSV no S3
-input_csv_path = "s3://data-lake-do-leonardo/Raw/Local/CSV/Movies/2024/12/17/movies.csv"
+caminho_csv = "s3://data-lake-do-leonardo/Raw/Local/CSV/Movies/2024/12/17/movies.csv"
 
 # Obter a data atual para organizar o caminho de saída
 data_atual = datetime.now()
@@ -32,7 +32,7 @@ parquet_file = f"s3://data-lake-do-leonardo/Raw/Trusted/Local/PARQUET/Movies/{an
 df = spark.read.option("header", "true") \
                .option("delimiter", "|") \
                .option("inferSchema", "true") \
-               .csv(input_csv_path)
+               .csv(caminho_csv)
 
 df = df.withColumn("genero_filtro", explode(split(col("genero"), ",")))
 
