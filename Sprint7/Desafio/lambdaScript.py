@@ -7,7 +7,7 @@ from io import StringIO
 from datetime import datetime
 
 # Definindo a chave da API TMDB e as URLs para os endpoints
-api_key = "xxxxxxxxxxxxxxxxxxxxxxx"
+api_key = "7ac33345c0f52862959af97e38df7616"
 search_url = "https://api.themoviedb.org/3/search/movie"
 details_url = "https://api.themoviedb.org/3/movie"
 credits_url = "https://api.themoviedb.org/3/movie/{}/credits"
