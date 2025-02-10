@@ -92,6 +92,6 @@ Com isso o DashBoard acaba ficando da seguinte maneira
 
 ![dash](../Evidencias/DashFinal.png)
 
-O PDF do dash se encontra na parta [Desafio](../Desafio/) caso queira baixa-lo
+O PDF do dash se encontra na pasta [Desafio](../Desafio/dashboard_Leonardo.Oliveira.pdf) caso queira baixa-lo
 
 Com isso o Desafio é finalizado.

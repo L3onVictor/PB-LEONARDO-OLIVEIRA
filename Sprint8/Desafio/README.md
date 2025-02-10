@@ -1,5 +1,5 @@
 # Desafio
-Esse desafio dará continuação ao desafio da Sprint anterior. Essa é a **etapa 3** da elaboração do Desafio final. Nessa etapa iremos adicionar os dados que estão na camada **Raw** para a camada **Trusted** por meio de um jog no **AWS Glue**. Esse job deve enviar o arquivo **csv** bruto, que foi armazenado na **Sprint 6** e o arquivo **json** que fiu elaborado na **Sprint 7** e, posteriormente, acessar esses dados por meio do Amazon Athena.
+Esse desafio dará continuação ao desafio da Sprint anterior. Essa é a **etapa 3** da elaboração do Desafio final. Nessa etapa iremos adicionar os dados que estão na camada **Raw** para a camada **Trusted** por meio de um job no **AWS Glue**. Esse job deve enviar o arquivo **csv** bruto, que foi armazenado na **Sprint 6** e o arquivo **json** que fiu elaborado na **Sprint 7** e, posteriormente, acessar esses dados por meio do Amazon Athena.
 
 > Camada Trusted: A camada Trusted de um data lake corresponde àquela em que os dados
 encontram-se limpos e são confiáveis. É resultado da integração das diversas fontes de origem, que encontram-se na
