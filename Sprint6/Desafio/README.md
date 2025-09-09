@@ -17,7 +17,7 @@ import os
 from datetime import datetime
 
 # Cria a sessão com o perfil do usuario
-session = boto3.Session(profile_name='207567778397_AdministratorAccess')
+session = boto3.Session(profile_name='xxxxxxxxxxxxxxxxxxxxxxx')
 
 # Cria o cliente S3 a partir da sessão
 s3_client = session.client('s3')
