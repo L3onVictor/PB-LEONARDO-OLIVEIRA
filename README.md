@@ -1,4 +1,4 @@
-# 👋 Olá, eu sou Leonardo Victor Bezerra de Oliveira!
+# 👋 Olá, eu sou Leonardo Oliveira!
 
 ## 🚀 Sobre o Estágio na Compass UOL
 Durante o período de **setembro/2024 a fevereiro/2025**, realizei meu estágio em **Engenharia de Dados** na **Compass UOL**, atuando no setor de **Data & Analytics**.  
@@ -50,11 +50,3 @@ Cada sprint abordou tópicos diferentes e complementares da trilha de Data Engin
 9. [Sprint 9](Sprint9/)
 
 10. [Sprint 10](Sprint10/)
----
-## 🎯 Conclusão
-Esse estágio na Compass UOL foi uma experiência que realmente fez diferença na minha formação.  
-Tive a chance de colocar a mão na massa em projetos reais, aprender bastante sobre **engenharia de dados em nuvem** e explorar ferramentas como **AWS, Spark, Docker e Python**.  
-
-Cada sprint trouxe um desafio diferente — desde criar scripts no Linux até montar **pipelines de dados e dashboards interativos**. No começo a curva de aprendizado foi grande, mas no fim a evolução foi gratificante, tanto na parte técnica quanto em habilidades de organização e trabalho em equipe.  
-
-Foi um período intenso, mas muito enriquecedor, que me deixou ainda mais motivado a seguir na área de **dados e tecnologia**
